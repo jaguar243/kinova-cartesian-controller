@@ -1,0 +1,8 @@
+﻿  expt_HoloLensCartesianTeleop.cpp
+  Adding library: Winmm.lib
+  Adding library: Ws2_32.lib
+c:\users\rahul\onedrive\desktop\kinovahmicartesiancontrol\kinovahmicartesiancontrol\expt_hololenscartesianteleop.cpp(435): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\rahul\onedrive\desktop\kinovahmicartesiancontrol\kinovahmicartesiancontrol\expt_hololenscartesianteleop.cpp(148): warning C4101: 'send_debug': unreferenced local variable
+c:\users\rahul\onedrive\desktop\kinovahmicartesiancontrol\kinovahmicartesiancontrol\expt_hololenscartesianteleop.cpp(180): warning C4101: 't2': unreferenced local variable
+c:\users\rahul\onedrive\desktop\kinovahmicartesiancontrol\kinovahmicartesiancontrol\expt_hololenscartesianteleop.cpp(180): warning C4101: 't_start': unreferenced local variable
+  KinovaHMICartesianControl.vcxproj -> C:\Users\rahul\OneDrive\Desktop\KinovaHMICartesianControl\Debug\KinovaHMICartesianControl.exe
