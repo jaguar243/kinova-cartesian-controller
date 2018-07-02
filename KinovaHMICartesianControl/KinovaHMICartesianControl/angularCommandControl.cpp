@@ -6,8 +6,8 @@
 
 #include "CartesianControl.h"
 
-/*
-Move to Starting  Position
+/*!
+Move the Robot Arm to the Start Position by setting the angular position of each joint: [270, 215, 90, 180] degrees
 */
 void Experiment::MovetoStartPos(KinovaAPIFunctions kinova)
 {
@@ -23,8 +23,12 @@ void Experiment::MovetoStartPos(KinovaAPIFunctions kinova)
 	kinova.MySendBasicTrajectory(kinovaStartPosition);
 }
 
-/*
-Move End-Effector to Desired Position (Angular Control)
+/*!
+Move End-Effector to Desired Position (Angular Control) [NOT USED IN EXPERIMENT]
+INPUTS:\n
+1. (KinovaAPIFunctions) kinova 	: 	A class object that can access the Kinova API to control/monitor the robot arm
+2. (float) xe 					: 	Desired Cartesian end-effector position in the X-direction
+3. (float) ze 					:	Desired Cartesian end-effector position in the Z-direction
 */
 void Experiment::MoveEndEffectorPos(KinovaAPIFunctions kinova, float xe, float ze)
 {
@@ -37,7 +41,8 @@ void Experiment::MoveEndEffectorPos(KinovaAPIFunctions kinova, float xe, float z
 	actuatorPos.Position.Actuators.Actuator2 = 270.0f - (float)atan2((double)ze, (double)xe)*180.0f / M_PI - (float)acos((l1*l1 + B*B - l2*l2) / (2 * l1*B))*180.0f / M_PI - 210.1f;
 	actuatorPos.Position.Actuators.Actuator3 = 180.0f + acos((l1*l1 + l2*l2 - B*B) / (2 * l1*l2))*180.0f / M_PI - actuatorPos.Position.Actuators.Actuator2 - 101.1f;
 	actuatorPos.Position.Actuators.Actuator4 = 0.0f; // FIXED
-													 //kinova.MySendBasicTrajectory(actuatorPos);
+	
+	kinova.MySendBasicTrajectory(actuatorPos);
 
 	std::cout << xe << "," << ze << "," << actuatorPos.Position.Actuators.Actuator2 << "," << actuatorPos.Position.Actuators.Actuator3 << std::endl;
 }
