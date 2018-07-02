@@ -1,4 +1,10 @@
 var searchData=
 [
-  ['load_5flut1d',['load_LUT1D',['../d8/d06/classExperiment.html#aedc226b0d88508dc7576686f808de0ea',1,'Experiment']]]
+  ['if',['if',['../d5/de7/jquery_8js.html#a9db6d45a025ad692282fe23e69eeba43',1,'if(!b.support.opacity):&#160;jquery.js'],['../d5/de7/jquery_8js.html#a30d3d2cd5b567c9f31b2aa30b9cb3bb8',1,'if(av.defaultView &amp;&amp;av.defaultView.getComputedStyle):&#160;jquery.js'],['../d5/de7/jquery_8js.html#a2c54bd8ed7482e89d19331ba61fe221c',1,'if(av.documentElement.currentStyle):&#160;jquery.js'],['../d5/de7/jquery_8js.html#a42cbfadee2b4749e8f699ea8d745a0e4',1,'if(b.expr &amp;&amp;b.expr.filters):&#160;jquery.js']]],
+  ['init_5fsearch',['init_search',['../d2/d19/search_8js.html#ae95ec7d5d450d0a8d6928a594798aaf4',1,'search.js']]],
+  ['initializehapticsdevice',['InitializeHapticsDevice',['../d6/da6/classNovintFalconHapticsDevice.html#ac4fe257d1b4ebb3bca073bae6f8a3542',1,'NovintFalconHapticsDevice::InitializeHapticsDevice()'],['../d6/da6/classNovintFalconHapticsDevice.html#ac4fe257d1b4ebb3bca073bae6f8a3542',1,'NovintFalconHapticsDevice::InitializeHapticsDevice()']]],
+  ['initkinect',['initKinect',['../d0/d05/classkinectSkelTrack.html#a2960fe70db543c6f59052c69c0fc6392',1,'kinectSkelTrack::initKinect()'],['../d0/d05/classkinectSkelTrack.html#a2960fe70db543c6f59052c69c0fc6392',1,'kinectSkelTrack::initKinect()']]],
+  ['interp_5flut',['interp_lut',['../d8/d06/classExperiment.html#a33a2f22c61afa5e85cb5a9004d62b4b3',1,'Experiment::interp_lut(double t, double *y_lut, int L_lut, double Tp_lut, double fs_lut)'],['../d8/d06/classExperiment.html#a33a2f22c61afa5e85cb5a9004d62b4b3',1,'Experiment::interp_lut(double t, double *y_lut, int L_lut, double Tp_lut, double fs_lut)']]],
+  ['isconnected',['IsConnected',['../d2/d6c/classCXBOXController.html#a9b7a69a50cf6ef90dc906404d2a66402',1,'CXBOXController::IsConnected()'],['../d2/d6c/classCXBOXController.html#a9b7a69a50cf6ef90dc906404d2a66402',1,'CXBOXController::IsConnected()']]],
+  ['istimeout',['isTimeout',['../dc/dea/classTimer.html#a3e85a8d174f96ce8eba95cc04f1d4ce8',1,'Timer::isTimeout(unsigned long seconds)'],['../dc/dea/classTimer.html#a3e85a8d174f96ce8eba95cc04f1d4ce8',1,'Timer::isTimeout(unsigned long seconds)']]]
 ];

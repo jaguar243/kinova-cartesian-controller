@@ -1,15 +1,9 @@
 var searchData=
 [
-  ['software_20license',['Software License',['../license.html',1,'index']]],
-  ['scale_5flut',['scale_LUT',['../d8/d06/classExperiment.html#ab599e3a9fd4a1529251af73c7a7d42c6',1,'Experiment']]],
-  ['senddata',['sendData',['../de/db2/classCSocketOutConnection.html#a9266098d03f6f4f04941dcbc3a1f54f5',1,'CSocketOutConnection']]],
-  ['sensor',['sensor',['../d0/d05/classkinectSkelTrack.html#a56f6ca7277b34103919fb8a467f72820',1,'kinectSkelTrack']]],
-  ['skeletonposition',['skeletonPosition',['../d0/d05/classkinectSkelTrack.html#aaebb56f3ac894f41fe5c88334bfda4ed',1,'kinectSkelTrack']]],
-  ['socketinconnection_2ecpp',['socketInConnection.cpp',['../d8/dca/socketInConnection_8cpp.html',1,'']]],
-  ['socketinconnection_2eh',['socketInConnection.h',['../d5/daf/socketInConnection_8h.html',1,'']]],
-  ['socketoutconnection_2eh',['socketOutConnection.h',['../d1/d3d/socketOutConnection_8h.html',1,'']]],
-  ['start',['start',['../dc/dea/classTimer.html#a3a8b5272198d029779dc9302a54305a8',1,'Timer']]],
-  ['startsignal',['startSignal',['../da/db1/structkinectSkelTrack_1_1KinectInfo.html#a5c96d5e337139c1cc68f3d3ebddb388b',1,'kinectSkelTrack::KinectInfo']]],
-  ['stdafx_2ecpp',['stdafx.cpp',['../df/d9d/stdafx_8cpp.html',1,'']]],
-  ['stdafx_2eh',['stdafx.h',['../db/d06/stdafx_8h.html',1,'']]]
+  ['receivedata',['receiveData',['../d9/d41/classCSocketInConnection.html#a35d54308230b9cea6f8af95a98441a72',1,'CSocketInConnection::receiveData(int &amp;dataSize)'],['../d9/d41/classCSocketInConnection.html#ac298cb80be140dd89e6c9ac96f0fb031',1,'CSocketInConnection::receiveData(int &amp;dataSize)']]],
+  ['receivereplydata',['receiveReplyData',['../de/db2/classCSocketOutConnection.html#a0255ab137779ad1ccc5687d579c2d14f',1,'CSocketOutConnection::receiveReplyData(int &amp;dataSize)'],['../de/db2/classCSocketOutConnection.html#a0255ab137779ad1ccc5687d579c2d14f',1,'CSocketOutConnection::receiveReplyData(int &amp;dataSize)']]],
+  ['references',['References',['../references.html',1,'']]],
+  ['replytoreceiveddata',['replyToReceivedData',['../d9/d41/classCSocketInConnection.html#a725ab613c935ef474c9c0ede64533770',1,'CSocketInConnection::replyToReceivedData(char *data, int dataSize)'],['../d9/d41/classCSocketInConnection.html#a725ab613c935ef474c9c0ede64533770',1,'CSocketInConnection::replyToReceivedData(char *data, int dataSize)']]],
+  ['resetic',['ResetIC',['../d6/da6/classNovintFalconHapticsDevice.html#a49d2c9beea12a5b1c5b42e9f77d453ad',1,'NovintFalconHapticsDevice::ResetIC(void)'],['../d6/da6/classNovintFalconHapticsDevice.html#a49d2c9beea12a5b1c5b42e9f77d453ad',1,'NovintFalconHapticsDevice::ResetIC(void)']]],
+  ['rotation',['rotation',['../d6/da6/classNovintFalconHapticsDevice.html#a28cf6108da9a0a2fd1830e517b4eb1f7',1,'NovintFalconHapticsDevice']]]
 ];

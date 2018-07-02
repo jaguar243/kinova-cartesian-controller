@@ -108,6 +108,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a964fe7c5d4f78565bd98f3f1c860a01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedc226b0d88508dc7576686f808de0ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/classExperiment.html#aedc226b0d88508dc7576686f808de0ea">load_LUT1D</a> (char *filename, char delim)</td></tr>
 <tr class="separator:aedc226b0d88508dc7576686f808de0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b40f95a20017941c6cb3e0d120bc998"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/classExperiment.html#a6b40f95a20017941c6cb3e0d120bc998">HoloLensCartesianTeleop</a> (char *argv[], <a class="el" href="../../d9/d19/classKinovaAPIFunctions.html">KinovaAPIFunctions</a> kinova)</td></tr>
+<tr class="separator:a6b40f95a20017941c6cb3e0d120bc998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a2f22c61afa5e85cb5a9004d62b4b3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/classExperiment.html#a33a2f22c61afa5e85cb5a9004d62b4b3">interp_lut</a> (double t, double *y_lut, int L_lut, double Tp_lut, double fs_lut)</td></tr>
+<tr class="separator:a33a2f22c61afa5e85cb5a9004d62b4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe22dc21cf9b4a7b07ebb2f9b7eeafce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/classExperiment.html#afe22dc21cf9b4a7b07ebb2f9b7eeafce">MovetoStartPos</a> (<a class="el" href="../../d9/d19/classKinovaAPIFunctions.html">KinovaAPIFunctions</a> kinova)</td></tr>
+<tr class="separator:afe22dc21cf9b4a7b07ebb2f9b7eeafce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a964fe7c5d4f78565bd98f3f1c860a01c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/classExperiment.html#a964fe7c5d4f78565bd98f3f1c860a01c">MoveEndEffectorPos</a> (<a class="el" href="../../d9/d19/classKinovaAPIFunctions.html">KinovaAPIFunctions</a> kinova, float xe, float ze)</td></tr>
+<tr class="separator:a964fe7c5d4f78565bd98f3f1c860a01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedc226b0d88508dc7576686f808de0ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/classExperiment.html#aedc226b0d88508dc7576686f808de0ea">load_LUT1D</a> (char *filename, char delim)</td></tr>
+<tr class="separator:aedc226b0d88508dc7576686f808de0ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -125,14 +135,40 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a64ab0761b30b073656aa75760d2e230d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab599e3a9fd4a1529251af73c7a7d42c6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/classExperiment.html#ab599e3a9fd4a1529251af73c7a7d42c6">scale_LUT</a> = 1</td></tr>
 <tr class="separator:ab599e3a9fd4a1529251af73c7a7d42c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfa65531d9549c3df64e52a77a93352e"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/classExperiment.html#abfa65531d9549c3df64e52a77a93352e">LUT</a></td></tr>
-<tr class="separator:abfa65531d9549c3df64e52a77a93352e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6489a27bcbcd76c45ac6cb742a34daa1"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/classExperiment.html#a6489a27bcbcd76c45ac6cb742a34daa1">LUT</a></td></tr>
+<tr class="separator:a6489a27bcbcd76c45ac6cb742a34daa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6e1965489695707f8de14f8ee5b09a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/classExperiment.html#af6e1965489695707f8de14f8ee5b09a1">len_LUT</a></td></tr>
 <tr class="separator:af6e1965489695707f8de14f8ee5b09a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03450b58564f4dbecb58e773e1cf5e8b"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d06/classExperiment.html#a03450b58564f4dbecb58e773e1cf5e8b">Kp</a> = 2.0f</td></tr>
 <tr class="separator:a03450b58564f4dbecb58e773e1cf5e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a6b40f95a20017941c6cb3e0d120bc998"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Experiment::HoloLensCartesianTeleop </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d19/classKinovaAPIFunctions.html">KinovaAPIFunctions</a>&#160;</td>
+          <td class="paramname"><em>kinova</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a6b40f95a20017941c6cb3e0d120bc998"></a>
 <div class="memitem">
 <div class="memproto">
@@ -214,6 +250,50 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a33a2f22c61afa5e85cb5a9004d62b4b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Experiment::interp_lut </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double *&#160;</td>
+          <td class="paramname"><em>y_lut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>L_lut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Tp_lut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>fs_lut</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aedc226b0d88508dc7576686f808de0ea"></a>
 <div class="memitem">
 <div class="memproto">
@@ -248,6 +328,32 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aedc226b0d88508dc7576686f808de0ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Experiment::load_LUT1D </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>delim</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a964fe7c5d4f78565bd98f3f1c860a01c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -277,6 +383,61 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a964fe7c5d4f78565bd98f3f1c860a01c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Experiment::MoveEndEffectorPos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d19/classKinovaAPIFunctions.html">KinovaAPIFunctions</a>&#160;</td>
+          <td class="paramname"><em>kinova</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>xe</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>ze</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Move End-Effector to Desired Position (Angular Control) [NOT USED IN EXPERIMENT] INPUTS:<br />
+</p><ol type="1">
+<li>(<a class="el" href="../../d9/d19/classKinovaAPIFunctions.html">KinovaAPIFunctions</a>) kinova : A class object that can access the Kinova API to control/monitor the robot arm</li>
+<li>(float) xe : Desired Cartesian end-effector position in the X-direction</li>
+<li>(float) ze : Desired Cartesian end-effector position in the Z-direction </li>
+</ol>
+
+</div>
+</div>
+<a class="anchor" id="afe22dc21cf9b4a7b07ebb2f9b7eeafce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Experiment::MovetoStartPos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d19/classKinovaAPIFunctions.html">KinovaAPIFunctions</a>&#160;</td>
+          <td class="paramname"><em>kinova</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Move the Robot Arm to the Start Position by setting the angular position of each joint: [270, 215, 90, 180] degrees </p>
 
 </div>
 </div>
@@ -345,12 +506,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="abfa65531d9549c3df64e52a77a93352e"></a>
+<a class="anchor" id="a6489a27bcbcd76c45ac6cb742a34daa1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double* Experiment::LUT</td>
+          <td class="memname">double * Experiment::LUT</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -421,7 +582,7 @@ Public Attributes</h2></td></tr>
 <li><a class="el" href="../../da/d2f/CartesianControl_8h_source.html">CartesianControl.h</a></li>
 <li><a class="el" href="../../d2/d77/angularCommandControl_8cpp.html">angularCommandControl.cpp</a></li>
 <li><a class="el" href="../../d2/d39/expt__HoloLensCartesianTeleop_8cpp.html">expt_HoloLensCartesianTeleop.cpp</a></li>
-<li><a class="el" href="../../d0/daf/lutLinearInterp_8cpp.html">lutLinearInterp.cpp</a></li>
+<li><a class="el" href="../../d1/d9b/KinovaHMICartesianControl_2lutLinearInterp_8cpp.html">KinovaHMICartesianControl/lutLinearInterp.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

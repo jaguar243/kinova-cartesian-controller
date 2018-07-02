@@ -17,6 +17,12 @@ bool \hyperlink{classkinectSkelTrack_a2960fe70db543c6f59052c69c0fc6392}{init\+Ki
 void \hyperlink{classkinectSkelTrack_a5508892e28cbd0acc638cca252627365}{get\+Skeletal\+Data} ()
 \item 
 \hyperlink{structkinectSkelTrack_1_1KinectInfo}{Kinect\+Info} \hyperlink{classkinectSkelTrack_aae6367b3180ed7831aa417dbb82ae2f3}{get\+Kinect\+Data} ()
+\item 
+bool \hyperlink{classkinectSkelTrack_a2960fe70db543c6f59052c69c0fc6392}{init\+Kinect} ()
+\item 
+void \hyperlink{classkinectSkelTrack_a5508892e28cbd0acc638cca252627365}{get\+Skeletal\+Data} ()
+\item 
+\hyperlink{structkinectSkelTrack_1_1KinectInfo}{Kinect\+Info} \hyperlink{classkinectSkelTrack_a4f865d402dea4c575dae0721babbb652}{get\+Kinect\+Data} ()
 \end{DoxyCompactItemize}
 \subsection*{Public Attributes}
 \begin{DoxyCompactItemize}
@@ -27,9 +33,9 @@ int \hyperlink{classkinectSkelTrack_a028f14282cd4301c8527703300d3dfe8}{height} =
 \item 
 H\+A\+N\+D\+LE \hyperlink{classkinectSkelTrack_ac736221c582bd751c18af867bd1b90f1}{depth\+Stream}
 \item 
-I\+Nui\+Sensor $\ast$ \hyperlink{classkinectSkelTrack_a56f6ca7277b34103919fb8a467f72820}{sensor}
+I\+Nui\+Sensor $\ast$ \hyperlink{classkinectSkelTrack_aaf976c279cb27cc57af90d65d4a7918a}{sensor}
 \item 
-Vector4 \hyperlink{classkinectSkelTrack_aaebb56f3ac894f41fe5c88334bfda4ed}{skeleton\+Position} \mbox{[}N\+U\+I\+\_\+\+S\+K\+E\+L\+E\+T\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+U\+NT\mbox{]}
+Vector4 \hyperlink{classkinectSkelTrack_a51e7bc6d4d52ea917922103e9261cd1f}{skeleton\+Position} \mbox{[}N\+U\+I\+\_\+\+S\+K\+E\+L\+E\+T\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+U\+NT\mbox{]}
 \end{DoxyCompactItemize}
 
 
@@ -41,7 +47,21 @@ Vector4 \hyperlink{classkinectSkelTrack_aaebb56f3ac894f41fe5c88334bfda4ed}{skele
 {}
 \end{DoxyParamCaption}
 )}\hypertarget{classkinectSkelTrack_aae6367b3180ed7831aa417dbb82ae2f3}{}\label{classkinectSkelTrack_aae6367b3180ed7831aa417dbb82ae2f3}
-Auxiliary function if multithreading the Kinect sensor \index{kinect\+Skel\+Track@{kinect\+Skel\+Track}!get\+Skeletal\+Data@{get\+Skeletal\+Data}}
+Auxiliary function if multithreading the Kinect sensor \index{kinect\+Skel\+Track@{kinect\+Skel\+Track}!get\+Kinect\+Data@{get\+Kinect\+Data}}
+\index{get\+Kinect\+Data@{get\+Kinect\+Data}!kinect\+Skel\+Track@{kinect\+Skel\+Track}}
+\subsubsection[{\texorpdfstring{get\+Kinect\+Data()}{getKinectData()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Kinect\+Info} kinect\+Skel\+Track\+::get\+Kinect\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classkinectSkelTrack_a4f865d402dea4c575dae0721babbb652}{}\label{classkinectSkelTrack_a4f865d402dea4c575dae0721babbb652}
+\index{kinect\+Skel\+Track@{kinect\+Skel\+Track}!get\+Skeletal\+Data@{get\+Skeletal\+Data}}
+\index{get\+Skeletal\+Data@{get\+Skeletal\+Data}!kinect\+Skel\+Track@{kinect\+Skel\+Track}}
+\subsubsection[{\texorpdfstring{get\+Skeletal\+Data()}{getSkeletalData()}}]{\setlength{\rightskip}{0pt plus 5cm}void kinect\+Skel\+Track\+::get\+Skeletal\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classkinectSkelTrack_a5508892e28cbd0acc638cca252627365}{}\label{classkinectSkelTrack_a5508892e28cbd0acc638cca252627365}
+\index{kinect\+Skel\+Track@{kinect\+Skel\+Track}!get\+Skeletal\+Data@{get\+Skeletal\+Data}}
 \index{get\+Skeletal\+Data@{get\+Skeletal\+Data}!kinect\+Skel\+Track@{kinect\+Skel\+Track}}
 \subsubsection[{\texorpdfstring{get\+Skeletal\+Data()}{getSkeletalData()}}]{\setlength{\rightskip}{0pt plus 5cm}void kinect\+Skel\+Track\+::get\+Skeletal\+Data (
 \begin{DoxyParamCaption}
@@ -49,6 +69,13 @@ Auxiliary function if multithreading the Kinect sensor \index{kinect\+Skel\+Trac
 \end{DoxyParamCaption}
 )}\hypertarget{classkinectSkelTrack_a5508892e28cbd0acc638cca252627365}{}\label{classkinectSkelTrack_a5508892e28cbd0acc638cca252627365}
 Get the skeletal data from the current frame \index{kinect\+Skel\+Track@{kinect\+Skel\+Track}!init\+Kinect@{init\+Kinect}}
+\index{init\+Kinect@{init\+Kinect}!kinect\+Skel\+Track@{kinect\+Skel\+Track}}
+\subsubsection[{\texorpdfstring{init\+Kinect()}{initKinect()}}]{\setlength{\rightskip}{0pt plus 5cm}bool kinect\+Skel\+Track\+::init\+Kinect (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classkinectSkelTrack_a2960fe70db543c6f59052c69c0fc6392}{}\label{classkinectSkelTrack_a2960fe70db543c6f59052c69c0fc6392}
+\index{kinect\+Skel\+Track@{kinect\+Skel\+Track}!init\+Kinect@{init\+Kinect}}
 \index{init\+Kinect@{init\+Kinect}!kinect\+Skel\+Track@{kinect\+Skel\+Track}}
 \subsubsection[{\texorpdfstring{init\+Kinect()}{initKinect()}}]{\setlength{\rightskip}{0pt plus 5cm}bool kinect\+Skel\+Track\+::init\+Kinect (
 \begin{DoxyParamCaption}
@@ -66,10 +93,10 @@ Initialize the Kinect sensor for skeleton tracking of the user closest to the se
 \subsubsection[{\texorpdfstring{height}{height}}]{\setlength{\rightskip}{0pt plus 5cm}int kinect\+Skel\+Track\+::height = 480}\hypertarget{classkinectSkelTrack_a028f14282cd4301c8527703300d3dfe8}{}\label{classkinectSkelTrack_a028f14282cd4301c8527703300d3dfe8}
 \index{kinect\+Skel\+Track@{kinect\+Skel\+Track}!sensor@{sensor}}
 \index{sensor@{sensor}!kinect\+Skel\+Track@{kinect\+Skel\+Track}}
-\subsubsection[{\texorpdfstring{sensor}{sensor}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Nui\+Sensor$\ast$ kinect\+Skel\+Track\+::sensor}\hypertarget{classkinectSkelTrack_a56f6ca7277b34103919fb8a467f72820}{}\label{classkinectSkelTrack_a56f6ca7277b34103919fb8a467f72820}
+\subsubsection[{\texorpdfstring{sensor}{sensor}}]{\setlength{\rightskip}{0pt plus 5cm}I\+Nui\+Sensor $\ast$ kinect\+Skel\+Track\+::sensor}\hypertarget{classkinectSkelTrack_aaf976c279cb27cc57af90d65d4a7918a}{}\label{classkinectSkelTrack_aaf976c279cb27cc57af90d65d4a7918a}
 \index{kinect\+Skel\+Track@{kinect\+Skel\+Track}!skeleton\+Position@{skeleton\+Position}}
 \index{skeleton\+Position@{skeleton\+Position}!kinect\+Skel\+Track@{kinect\+Skel\+Track}}
-\subsubsection[{\texorpdfstring{skeleton\+Position}{skeletonPosition}}]{\setlength{\rightskip}{0pt plus 5cm}Vector4 kinect\+Skel\+Track\+::skeleton\+Position\mbox{[}N\+U\+I\+\_\+\+S\+K\+E\+L\+E\+T\+O\+N\+\_\+\+P\+O\+S\+I\+T\+I\+O\+N\+\_\+\+C\+O\+U\+NT\mbox{]}}\hypertarget{classkinectSkelTrack_aaebb56f3ac894f41fe5c88334bfda4ed}{}\label{classkinectSkelTrack_aaebb56f3ac894f41fe5c88334bfda4ed}
+\subsubsection[{\texorpdfstring{skeleton\+Position}{skeletonPosition}}]{\setlength{\rightskip}{0pt plus 5cm}Vector4 kinect\+Skel\+Track\+::skeleton\+Position}\hypertarget{classkinectSkelTrack_a51e7bc6d4d52ea917922103e9261cd1f}{}\label{classkinectSkelTrack_a51e7bc6d4d52ea917922103e9261cd1f}
 \index{kinect\+Skel\+Track@{kinect\+Skel\+Track}!width@{width}}
 \index{width@{width}!kinect\+Skel\+Track@{kinect\+Skel\+Track}}
 \subsubsection[{\texorpdfstring{width}{width}}]{\setlength{\rightskip}{0pt plus 5cm}int kinect\+Skel\+Track\+::width = 640}\hypertarget{classkinectSkelTrack_a8f20f39c8822eecba07518a8b35a9f2b}{}\label{classkinectSkelTrack_a8f20f39c8822eecba07518a8b35a9f2b}

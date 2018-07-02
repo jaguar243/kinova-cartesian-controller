@@ -1,4 +1,10 @@
 var searchData=
 [
-  ['elapsedtime',['elapsedTime',['../dc/dea/classTimer.html#a034b4f311dbba1ba6ace1af3cf7c6f97',1,'Timer']]]
+  ['connecttoclient',['connectToClient',['../d9/d41/classCSocketInConnection.html#a3573b19ec54411ee9a275ffeb9712cb4',1,'CSocketInConnection::connectToClient()'],['../d9/d41/classCSocketInConnection.html#a3573b19ec54411ee9a275ffeb9712cb4',1,'CSocketInConnection::connectToClient()']]],
+  ['connecttoserver',['connectToServer',['../de/db2/classCSocketOutConnection.html#a1be707b8bc47610dbf58443acf270297',1,'CSocketOutConnection::connectToServer()'],['../de/db2/classCSocketOutConnection.html#a1be707b8bc47610dbf58443acf270297',1,'CSocketOutConnection::connectToServer()']]],
+  ['converttoid',['convertToId',['../d2/d19/search_8js.html#a196a29bd5a5ee7cd5b485e0753a49e57',1,'search.js']]],
+  ['createresults',['createResults',['../d2/d19/search_8js.html#a6b2c651120de3ed1dcf0d85341d51895',1,'search.js']]],
+  ['csocketinconnection',['CSocketInConnection',['../d9/d41/classCSocketInConnection.html#aa1fedace468aaaacc9ed53364fe54dd7',1,'CSocketInConnection::CSocketInConnection(int theConnectionPort, unsigned short maxPacketSize=250, char headerID1=59, char headerID2=57)'],['../d9/d41/classCSocketInConnection.html#aa1fedace468aaaacc9ed53364fe54dd7',1,'CSocketInConnection::CSocketInConnection(int theConnectionPort, unsigned short maxPacketSize=250, char headerID1=59, char headerID2=57)']]],
+  ['csocketoutconnection',['CSocketOutConnection',['../de/db2/classCSocketOutConnection.html#a26ac9c4b8a575dfde5a896879fa84fb4',1,'CSocketOutConnection::CSocketOutConnection(const char *theConnectionAddress, int theConnectionPort, unsigned short maxPacketSize=250, char headerID1=59, char headerID2=57)'],['../de/db2/classCSocketOutConnection.html#a26ac9c4b8a575dfde5a896879fa84fb4',1,'CSocketOutConnection::CSocketOutConnection(const char *theConnectionAddress, int theConnectionPort, unsigned short maxPacketSize=250, char headerID1=59, char headerID2=57)']]],
+  ['cxboxcontroller',['CXBOXController',['../d2/d6c/classCXBOXController.html#a530d3ef7c7f3b06ea3f10f5ed6e2eaba',1,'CXBOXController::CXBOXController(int playerNumber)'],['../d2/d6c/classCXBOXController.html#a530d3ef7c7f3b06ea3f10f5ed6e2eaba',1,'CXBOXController::CXBOXController(int playerNumber)']]]
 ];

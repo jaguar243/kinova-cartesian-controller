@@ -95,7 +95,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="../../d1/d3d/socketOutConnection_8h_source.html">socketOutConnection.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="../../db/da6/KinovaHMICartesianControl_2socketOutConnection_8h_source.html">socketOutConnection.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -109,9 +109,27 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9266098d03f6f4f04941dcbc3a1f54f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0255ab137779ad1ccc5687d579c2d14f"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/classCSocketOutConnection.html#a0255ab137779ad1ccc5687d579c2d14f">receiveReplyData</a> (int &amp;dataSize)</td></tr>
 <tr class="separator:a0255ab137779ad1ccc5687d579c2d14f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ac9c4b8a575dfde5a896879fa84fb4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/classCSocketOutConnection.html#a26ac9c4b8a575dfde5a896879fa84fb4">CSocketOutConnection</a> (const char *theConnectionAddress, int theConnectionPort, unsigned short maxPacketSize=250, char headerID1=59, char headerID2=57)</td></tr>
+<tr class="separator:a26ac9c4b8a575dfde5a896879fa84fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dec7524a61d96c85b008d6b3423a82a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/classCSocketOutConnection.html#a1dec7524a61d96c85b008d6b3423a82a">~CSocketOutConnection</a> ()</td></tr>
+<tr class="separator:a1dec7524a61d96c85b008d6b3423a82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1be707b8bc47610dbf58443acf270297"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/classCSocketOutConnection.html#a1be707b8bc47610dbf58443acf270297">connectToServer</a> ()</td></tr>
+<tr class="separator:a1be707b8bc47610dbf58443acf270297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9266098d03f6f4f04941dcbc3a1f54f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/classCSocketOutConnection.html#a9266098d03f6f4f04941dcbc3a1f54f5">sendData</a> (char *data, int dataSize)</td></tr>
+<tr class="separator:a9266098d03f6f4f04941dcbc3a1f54f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0255ab137779ad1ccc5687d579c2d14f"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/classCSocketOutConnection.html#a0255ab137779ad1ccc5687d579c2d14f">receiveReplyData</a> (int &amp;dataSize)</td></tr>
+<tr class="separator:a0255ab137779ad1ccc5687d579c2d14f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:aecd4ed7366fe4d26b7aee7c40f2cb149"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/classCSocketOutConnection.html#aecd4ed7366fe4d26b7aee7c40f2cb149">_sendSimplePacket</a> (char *packet, int packetLength, unsigned short packetsLeft)</td></tr>
+<tr class="separator:aecd4ed7366fe4d26b7aee7c40f2cb149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fe9c6ffe547417d37baa5737dcc6596"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/classCSocketOutConnection.html#a8fe9c6ffe547417d37baa5737dcc6596">_receiveSimplePacket</a> (std::vector&lt; char &gt; &amp;packet)</td></tr>
+<tr class="separator:a8fe9c6ffe547417d37baa5737dcc6596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48ea2d2223cb127fa3e856f9202400ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/classCSocketOutConnection.html#a48ea2d2223cb127fa3e856f9202400ec">_getTimeInMs</a> ()</td></tr>
+<tr class="separator:a48ea2d2223cb127fa3e856f9202400ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a975e026eda1a75091bc618f007f20809"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/classCSocketOutConnection.html#a975e026eda1a75091bc618f007f20809">_getTimeDiffInMs</a> (int lastTime)</td></tr>
+<tr class="separator:a975e026eda1a75091bc618f007f20809"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecd4ed7366fe4d26b7aee7c40f2cb149"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/classCSocketOutConnection.html#aecd4ed7366fe4d26b7aee7c40f2cb149">_sendSimplePacket</a> (char *packet, int packetLength, unsigned short packetsLeft)</td></tr>
 <tr class="separator:aecd4ed7366fe4d26b7aee7c40f2cb149"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fe9c6ffe547417d37baa5737dcc6596"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db2/classCSocketOutConnection.html#a8fe9c6ffe547417d37baa5737dcc6596">_receiveSimplePacket</a> (std::vector&lt; char &gt; &amp;packet)</td></tr>
@@ -206,7 +224,98 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a26ac9c4b8a575dfde5a896879fa84fb4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CSocketOutConnection::CSocketOutConnection </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>theConnectionAddress</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>theConnectionPort</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned short&#160;</td>
+          <td class="paramname"><em>maxPacketSize</em> = <code>250</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>headerID1</em> = <code>59</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>headerID2</em> = <code>57</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1dec7524a61d96c85b008d6b3423a82a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual CSocketOutConnection::~CSocketOutConnection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a975e026eda1a75091bc618f007f20809"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CSocketOutConnection::_getTimeDiffInMs </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>lastTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a975e026eda1a75091bc618f007f20809"></a>
 <div class="memitem">
 <div class="memproto">
@@ -242,6 +351,53 @@ Protected Attributes</h2></td></tr>
           <td class="memname">int CSocketOutConnection::_getTimeInMs </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a48ea2d2223cb127fa3e856f9202400ec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CSocketOutConnection::_getTimeInMs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8fe9c6ffe547417d37baa5737dcc6596"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CSocketOutConnection::_receiveSimplePacket </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; char &gt; &amp;&#160;</td>
+          <td class="paramname"><em>packet</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -318,6 +474,61 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aecd4ed7366fe4d26b7aee7c40f2cb149"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CSocketOutConnection::_sendSimplePacket </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>packet</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>packetLength</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned short&#160;</td>
+          <td class="paramname"><em>packetsLeft</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1be707b8bc47610dbf58443acf270297"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CSocketOutConnection::connectToServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a1be707b8bc47610dbf58443acf270297"></a>
 <div class="memitem">
 <div class="memproto">
@@ -343,6 +554,48 @@ Protected Attributes</h2></td></tr>
           <td class="paramtype">int &amp;&#160;</td>
           <td class="paramname"><em>dataSize</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0255ab137779ad1ccc5687d579c2d14f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* CSocketOutConnection::receiveReplyData </td>
+          <td>(</td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>dataSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9266098d03f6f4f04941dcbc3a1f54f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CSocketOutConnection::sendData </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dataSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -517,7 +770,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><a class="el" href="../../d1/d3d/socketOutConnection_8h_source.html">socketOutConnection.h</a></li>
+<li><a class="el" href="../../db/da6/KinovaHMICartesianControl_2socketOutConnection_8h_source.html">KinovaHMICartesianControl/socketOutConnection.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

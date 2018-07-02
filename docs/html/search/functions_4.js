@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['getconnectedmachineip',['getConnectedMachineIP',['../d9/d41/classCSocketInConnection.html#a2d41173714abbf83ffef5663062b453a',1,'CSocketInConnection']]],
-  ['getkinectdata',['getKinectData',['../d0/d05/classkinectSkelTrack.html#aae6367b3180ed7831aa417dbb82ae2f3',1,'kinectSkelTrack']]],
-  ['getskeletaldata',['getSkeletalData',['../d0/d05/classkinectSkelTrack.html#a5508892e28cbd0acc638cca252627365',1,'kinectSkelTrack']]],
-  ['getstate',['GetState',['../d2/d6c/classCXBOXController.html#a2d4f5ac4802cfa35ff8467103621aafa',1,'CXBOXController']]]
+  ['firfloat',['firFloat',['../d3/d32/classFIRFilter.html#aca52df7e1d89d1c324489daaff6fa526',1,'FIRFilter::firFloat(double *input, int length)'],['../d3/d32/classFIRFilter.html#ac48c94066f3ecb79f80e7a20197416d7',1,'FIRFilter::firFloat(double *input, int length)']]],
+  ['firfloatinit',['firFloatInit',['../d3/d32/classFIRFilter.html#a03b7ef73545b59416afe789235b4404a',1,'FIRFilter::firFloatInit()'],['../d3/d32/classFIRFilter.html#a03b7ef73545b59416afe789235b4404a',1,'FIRFilter::firFloatInit()']]]
 ];

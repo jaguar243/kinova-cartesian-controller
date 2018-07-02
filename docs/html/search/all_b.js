@@ -1,11 +1,22 @@
 var searchData=
 [
-  ['len_5flut',['len_LUT',['../d8/d06/classExperiment.html#af6e1965489695707f8de14f8ee5b09a1',1,'Experiment']]],
-  ['length',['length',['../d3/d32/classFIRFilter.html#a4e697a78993656c942005939a3439b3f',1,'FIRFilter']]],
-  ['linearvelocity',['linearVelocity',['../d6/da6/classNovintFalconHapticsDevice.html#a59f432627f7b981c9555216997110bcc',1,'NovintFalconHapticsDevice']]],
-  ['load_5flut1d',['load_LUT1D',['../d8/d06/classExperiment.html#aedc226b0d88508dc7576686f808de0ea',1,'Experiment']]],
-  ['load_5fuhx_5ffrom_5ffile',['LOAD_UHX_FROM_FILE',['../d2/d39/expt__HoloLensCartesianTeleop_8cpp.html#ace138276390387cfa2180f589e502f82',1,'expt_HoloLensCartesianTeleop.cpp']]],
-  ['load_5fxm_5ffrom_5ffile',['LOAD_XM_FROM_FILE',['../d2/d39/expt__HoloLensCartesianTeleop_8cpp.html#a0d517e64a65ae6a5522a96096b29ee6b',1,'expt_HoloLensCartesianTeleop.cpp']]],
-  ['lut',['LUT',['../d8/d06/classExperiment.html#abfa65531d9549c3df64e52a77a93352e',1,'Experiment']]],
-  ['lutlinearinterp_2ecpp',['lutLinearInterp.cpp',['../d0/daf/lutLinearInterp_8cpp.html',1,'']]]
+  ['angularcommandcontrol_2ecpp',['angularCommandControl.cpp',['../dc/d9e/KinovaHMICartesianControl_2angularCommandControl_8cpp.html',1,'']]],
+  ['cartesiancontrol_2eh',['CartesianControl.h',['../d8/db4/KinovaHMICartesianControl_2CartesianControl_8h.html',1,'']]],
+  ['expt_5fhololenscartesianteleop_2ecpp',['expt_HoloLensCartesianTeleop.cpp',['../db/d18/KinovaHMICartesianControl_2expt__HoloLensCartesianTeleop_8cpp.html',1,'']]],
+  ['firfilter_2ecpp',['firFilter.cpp',['../da/d29/KinovaHMICartesianControl_2firFilter_8cpp.html',1,'']]],
+  ['hmifunctions_2ecpp',['HMIfunctions.cpp',['../d7/dbb/KinovaHMICartesianControl_2HMIfunctions_8cpp.html',1,'']]],
+  ['k',['k',['../d5/de7/jquery_8js.html#ab26645c014aa005ecedef329ecf58c99',1,'jquery.js']]],
+  ['kinectinfo',['KinectInfo',['../da/db1/structkinectSkelTrack_1_1KinectInfo.html',1,'kinectSkelTrack']]],
+  ['kinectskeltrack',['kinectSkelTrack',['../d0/d05/classkinectSkelTrack.html',1,'']]],
+  ['kinovaapifunctions',['KinovaAPIFunctions',['../d9/d19/classKinovaAPIFunctions.html',1,'']]],
+  ['kinovahmicartesiancontrol_2ecpp',['KinovaHMICartesianControl.cpp',['../d0/d36/KinovaHMICartesianControl_2KinovaHMICartesianControl_8cpp.html',1,'']]],
+  ['kinovahmicartesiancontrol_2ecpp',['KinovaHMICartesianControl.cpp',['../d0/da0/KinovaHMICartesianControl_8cpp.html',1,'']]],
+  ['kp',['Kp',['../d8/d06/classExperiment.html#a03450b58564f4dbecb58e773e1cf5e8b',1,'Experiment']]],
+  ['lutlinearinterp_2ecpp',['lutLinearInterp.cpp',['../d1/d9b/KinovaHMICartesianControl_2lutLinearInterp_8cpp.html',1,'']]],
+  ['socketinconnection_2ecpp',['socketInConnection.cpp',['../d9/d38/KinovaHMICartesianControl_2socketInConnection_8cpp.html',1,'']]],
+  ['socketinconnection_2eh',['socketInConnection.h',['../dd/da5/KinovaHMICartesianControl_2socketInConnection_8h.html',1,'']]],
+  ['socketoutconnection_2eh',['socketOutConnection.h',['../db/da6/KinovaHMICartesianControl_2socketOutConnection_8h.html',1,'']]],
+  ['stdafx_2ecpp',['stdafx.cpp',['../d5/d2d/KinovaHMICartesianControl_2stdafx_8cpp.html',1,'']]],
+  ['stdafx_2eh',['stdafx.h',['../da/d8b/KinovaHMICartesianControl_2stdafx_8h.html',1,'']]],
+  ['targetver_2eh',['targetver.h',['../de/df0/KinovaHMICartesianControl_2targetver_8h.html',1,'']]]
 ];

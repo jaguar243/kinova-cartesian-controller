@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['output',['output',['../d3/d32/classFIRFilter.html#a0a616fd678a499167f252253b2300c76',1,'FIRFilter']]],
-  ['overview',['Overview',['../overview.html',1,'']]]
+  ['novintfalcon',['novintFalcon',['../d2/d39/expt__HoloLensCartesianTeleop_8cpp.html#a5af8a150b7e3676a29b7844262dd4d6f',1,'novintFalcon():&#160;expt_HoloLensCartesianTeleop.cpp'],['../db/d18/KinovaHMICartesianControl_2expt__HoloLensCartesianTeleop_8cpp.html#a5af8a150b7e3676a29b7844262dd4d6f',1,'novintFalcon():&#160;expt_HoloLensCartesianTeleop.cpp']]],
+  ['novintfalconhapticsdevice',['NovintFalconHapticsDevice',['../d6/da6/classNovintFalconHapticsDevice.html',1,'']]]
 ];

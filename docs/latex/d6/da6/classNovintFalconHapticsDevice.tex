@@ -12,6 +12,12 @@ bool \hyperlink{classNovintFalconHapticsDevice_ac4fe257d1b4ebb3bca073bae6f8a3542
 void \hyperlink{classNovintFalconHapticsDevice_a6f3fa36cd75a7a4c53950f5552f82ad2}{Update\+Haptics} (void)
 \item 
 void \hyperlink{classNovintFalconHapticsDevice_a49d2c9beea12a5b1c5b42e9f77d453ad}{Reset\+IC} (void)
+\item 
+bool \hyperlink{classNovintFalconHapticsDevice_ac4fe257d1b4ebb3bca073bae6f8a3542}{Initialize\+Haptics\+Device} ()
+\item 
+void \hyperlink{classNovintFalconHapticsDevice_a6f3fa36cd75a7a4c53950f5552f82ad2}{Update\+Haptics} (void)
+\item 
+void \hyperlink{classNovintFalconHapticsDevice_a49d2c9beea12a5b1c5b42e9f77d453ad}{Reset\+IC} (void)
 \end{DoxyCompactItemize}
 \subsection*{Public Attributes}
 \begin{DoxyCompactItemize}
@@ -20,9 +26,9 @@ chai3d\+::c\+Generic\+Haptic\+Device\+Ptr \hyperlink{classNovintFalconHapticsDev
 \item 
 chai3d\+::c\+Vector3d \hyperlink{classNovintFalconHapticsDevice_a7815111e1968006b1a6848c040e0e310}{haptic\+Device\+Position}
 \item 
-chai3d\+::c\+Thread $\ast$ \hyperlink{classNovintFalconHapticsDevice_a7257d16146ffc12eed6044a7321b7397}{haptics\+Thread}
+chai3d\+::c\+Thread $\ast$ \hyperlink{classNovintFalconHapticsDevice_ab2de370251fd52cffabddb45b19c2a5b}{haptics\+Thread}
 \item 
-chai3d\+::c\+Haptic\+Device\+Handler $\ast$ \hyperlink{classNovintFalconHapticsDevice_a64bca002d3939aede4ecbabbe2613865}{handler}
+chai3d\+::c\+Haptic\+Device\+Handler $\ast$ \hyperlink{classNovintFalconHapticsDevice_a41bee64a24535ae175c1a5908ad5c63a}{handler}
 \item 
 double \hyperlink{classNovintFalconHapticsDevice_a8cdeb18d8b1e6468c6d4d2e3d2f3e55e}{maxforce} = 1
 \item 
@@ -58,7 +64,21 @@ bool \hyperlink{classNovintFalconHapticsDevice_ab057b4217959d896c52fc5167be1314d
 {}
 \end{DoxyParamCaption}
 )}\hypertarget{classNovintFalconHapticsDevice_ac4fe257d1b4ebb3bca073bae6f8a3542}{}\label{classNovintFalconHapticsDevice_ac4fe257d1b4ebb3bca073bae6f8a3542}
-Initialize the Novint Falcon Haptics device \index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!Reset\+IC@{Reset\+IC}}
+Initialize the Novint Falcon Haptics device \index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!Initialize\+Haptics\+Device@{Initialize\+Haptics\+Device}}
+\index{Initialize\+Haptics\+Device@{Initialize\+Haptics\+Device}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{Initialize\+Haptics\+Device()}{InitializeHapticsDevice()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Novint\+Falcon\+Haptics\+Device\+::\+Initialize\+Haptics\+Device (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classNovintFalconHapticsDevice_ac4fe257d1b4ebb3bca073bae6f8a3542}{}\label{classNovintFalconHapticsDevice_ac4fe257d1b4ebb3bca073bae6f8a3542}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!Reset\+IC@{Reset\+IC}}
+\index{Reset\+IC@{Reset\+IC}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{Reset\+I\+C(void)}{ResetIC(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void Novint\+Falcon\+Haptics\+Device\+::\+Reset\+IC (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{classNovintFalconHapticsDevice_a49d2c9beea12a5b1c5b42e9f77d453ad}{}\label{classNovintFalconHapticsDevice_a49d2c9beea12a5b1c5b42e9f77d453ad}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!Reset\+IC@{Reset\+IC}}
 \index{Reset\+IC@{Reset\+IC}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
 \subsubsection[{\texorpdfstring{Reset\+I\+C(void)}{ResetIC(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void Novint\+Falcon\+Haptics\+Device\+::\+Reset\+IC (
 \begin{DoxyParamCaption}
@@ -72,7 +92,14 @@ Reset the Haptics Device and apply a feedback force towards the center of the jo
 \item[{void}]{}
 \end{DoxyParamCaption}
 )}\hypertarget{classNovintFalconHapticsDevice_a6f3fa36cd75a7a4c53950f5552f82ad2}{}\label{classNovintFalconHapticsDevice_a6f3fa36cd75a7a4c53950f5552f82ad2}
-Update the current position of the Haptics joystick 
+Update the current position of the Haptics joystick \index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!Update\+Haptics@{Update\+Haptics}}
+\index{Update\+Haptics@{Update\+Haptics}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{Update\+Haptics(void)}{UpdateHaptics(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void Novint\+Falcon\+Haptics\+Device\+::\+Update\+Haptics (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{classNovintFalconHapticsDevice_a6f3fa36cd75a7a4c53950f5552f82ad2}{}\label{classNovintFalconHapticsDevice_a6f3fa36cd75a7a4c53950f5552f82ad2}
+
 
 \subsection{Member Data Documentation}
 \index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!angular\+Velocity@{angular\+Velocity}}
@@ -92,7 +119,7 @@ Update the current position of the Haptics joystick
 \subsubsection[{\texorpdfstring{desired\+Rotation}{desiredRotation}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Matrix3d Novint\+Falcon\+Haptics\+Device\+::desired\+Rotation}\hypertarget{classNovintFalconHapticsDevice_acb82e8e4273b4979aae7cba6989058b6}{}\label{classNovintFalconHapticsDevice_acb82e8e4273b4979aae7cba6989058b6}
 \index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!handler@{handler}}
 \index{handler@{handler}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
-\subsubsection[{\texorpdfstring{handler}{handler}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Haptic\+Device\+Handler$\ast$ Novint\+Falcon\+Haptics\+Device\+::handler}\hypertarget{classNovintFalconHapticsDevice_a64bca002d3939aede4ecbabbe2613865}{}\label{classNovintFalconHapticsDevice_a64bca002d3939aede4ecbabbe2613865}
+\subsubsection[{\texorpdfstring{handler}{handler}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Haptic\+Device\+Handler $\ast$ Novint\+Falcon\+Haptics\+Device\+::handler}\hypertarget{classNovintFalconHapticsDevice_a41bee64a24535ae175c1a5908ad5c63a}{}\label{classNovintFalconHapticsDevice_a41bee64a24535ae175c1a5908ad5c63a}
 \index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!haptic\+Device@{haptic\+Device}}
 \index{haptic\+Device@{haptic\+Device}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
 \subsubsection[{\texorpdfstring{haptic\+Device}{hapticDevice}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Generic\+Haptic\+Device\+Ptr Novint\+Falcon\+Haptics\+Device\+::haptic\+Device}\hypertarget{classNovintFalconHapticsDevice_aa5184bbe68246d129003f66c3d5a9628}{}\label{classNovintFalconHapticsDevice_aa5184bbe68246d129003f66c3d5a9628}
@@ -101,7 +128,7 @@ Update the current position of the Haptics joystick
 \subsubsection[{\texorpdfstring{haptic\+Device\+Position}{hapticDevicePosition}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Vector3d Novint\+Falcon\+Haptics\+Device\+::haptic\+Device\+Position}\hypertarget{classNovintFalconHapticsDevice_a7815111e1968006b1a6848c040e0e310}{}\label{classNovintFalconHapticsDevice_a7815111e1968006b1a6848c040e0e310}
 \index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!haptics\+Thread@{haptics\+Thread}}
 \index{haptics\+Thread@{haptics\+Thread}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
-\subsubsection[{\texorpdfstring{haptics\+Thread}{hapticsThread}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Thread$\ast$ Novint\+Falcon\+Haptics\+Device\+::haptics\+Thread}\hypertarget{classNovintFalconHapticsDevice_a7257d16146ffc12eed6044a7321b7397}{}\label{classNovintFalconHapticsDevice_a7257d16146ffc12eed6044a7321b7397}
+\subsubsection[{\texorpdfstring{haptics\+Thread}{hapticsThread}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Thread $\ast$ Novint\+Falcon\+Haptics\+Device\+::haptics\+Thread}\hypertarget{classNovintFalconHapticsDevice_ab2de370251fd52cffabddb45b19c2a5b}{}\label{classNovintFalconHapticsDevice_ab2de370251fd52cffabddb45b19c2a5b}
 \index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!is\+Running@{is\+Running}}
 \index{is\+Running@{is\+Running}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
 \subsubsection[{\texorpdfstring{is\+Running}{isRunning}}]{\setlength{\rightskip}{0pt plus 5cm}bool Novint\+Falcon\+Haptics\+Device\+::is\+Running = false}\hypertarget{classNovintFalconHapticsDevice_afa3018d647b1096332fc0076b9b70733}{}\label{classNovintFalconHapticsDevice_afa3018d647b1096332fc0076b9b70733}

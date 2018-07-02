@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['senddata',['sendData',['../de/db2/classCSocketOutConnection.html#a9266098d03f6f4f04941dcbc3a1f54f5',1,'CSocketOutConnection']]],
-  ['start',['start',['../dc/dea/classTimer.html#a3a8b5272198d029779dc9302a54305a8',1,'Timer']]]
+  ['p',['p',['../d5/de7/jquery_8js.html#a2335e57f79b6acfb6de59c235dc8a83e',1,'jquery.js']]]
 ];

@@ -16,9 +16,27 @@ int \hyperlink{classCSocketOutConnection_a1be707b8bc47610dbf58443acf270297}{conn
 bool \hyperlink{classCSocketOutConnection_a9266098d03f6f4f04941dcbc3a1f54f5}{send\+Data} (char $\ast$data, int data\+Size)
 \item 
 char $\ast$ \hyperlink{classCSocketOutConnection_a0255ab137779ad1ccc5687d579c2d14f}{receive\+Reply\+Data} (int \&data\+Size)
+\item 
+\hyperlink{classCSocketOutConnection_a26ac9c4b8a575dfde5a896879fa84fb4}{C\+Socket\+Out\+Connection} (const char $\ast$the\+Connection\+Address, int the\+Connection\+Port, unsigned short max\+Packet\+Size=250, char header\+I\+D1=59, char header\+I\+D2=57)
+\item 
+virtual \hyperlink{classCSocketOutConnection_a1dec7524a61d96c85b008d6b3423a82a}{$\sim$\+C\+Socket\+Out\+Connection} ()
+\item 
+int \hyperlink{classCSocketOutConnection_a1be707b8bc47610dbf58443acf270297}{connect\+To\+Server} ()
+\item 
+bool \hyperlink{classCSocketOutConnection_a9266098d03f6f4f04941dcbc3a1f54f5}{send\+Data} (char $\ast$data, int data\+Size)
+\item 
+char $\ast$ \hyperlink{classCSocketOutConnection_a0255ab137779ad1ccc5687d579c2d14f}{receive\+Reply\+Data} (int \&data\+Size)
 \end{DoxyCompactItemize}
 \subsection*{Protected Member Functions}
 \begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classCSocketOutConnection_aecd4ed7366fe4d26b7aee7c40f2cb149}{\+\_\+send\+Simple\+Packet} (char $\ast$packet, int packet\+Length, unsigned short packets\+Left)
+\item 
+int \hyperlink{classCSocketOutConnection_a8fe9c6ffe547417d37baa5737dcc6596}{\+\_\+receive\+Simple\+Packet} (std\+::vector$<$ char $>$ \&packet)
+\item 
+int \hyperlink{classCSocketOutConnection_a48ea2d2223cb127fa3e856f9202400ec}{\+\_\+get\+Time\+In\+Ms} ()
+\item 
+int \hyperlink{classCSocketOutConnection_a975e026eda1a75091bc618f007f20809}{\+\_\+get\+Time\+Diff\+In\+Ms} (int last\+Time)
 \item 
 bool \hyperlink{classCSocketOutConnection_aecd4ed7366fe4d26b7aee7c40f2cb149}{\+\_\+send\+Simple\+Packet} (char $\ast$packet, int packet\+Length, unsigned short packets\+Left)
 \item 
@@ -66,9 +84,34 @@ unsigned short \hyperlink{classCSocketOutConnection_a4df79b453417a21cd75b94d6394
 {}
 \end{DoxyParamCaption}
 )\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classCSocketOutConnection_a1dec7524a61d96c85b008d6b3423a82a}{}\label{classCSocketOutConnection_a1dec7524a61d96c85b008d6b3423a82a}
+\index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
+\index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
+\subsubsection[{\texorpdfstring{C\+Socket\+Out\+Connection(const char $\ast$the\+Connection\+Address, int the\+Connection\+Port, unsigned short max\+Packet\+Size=250, char header\+I\+D1=59, char header\+I\+D2=57)}{CSocketOutConnection(const char *theConnectionAddress, int theConnectionPort, unsigned short maxPacketSize=250, char headerID1=59, char headerID2=57)}}]{\setlength{\rightskip}{0pt plus 5cm}C\+Socket\+Out\+Connection\+::\+C\+Socket\+Out\+Connection (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{the\+Connection\+Address, }
+\item[{int}]{the\+Connection\+Port, }
+\item[{unsigned short}]{max\+Packet\+Size = {\ttfamily 250}, }
+\item[{char}]{header\+I\+D1 = {\ttfamily 59}, }
+\item[{char}]{header\+I\+D2 = {\ttfamily 57}}
+\end{DoxyParamCaption}
+)}\hypertarget{classCSocketOutConnection_a26ac9c4b8a575dfde5a896879fa84fb4}{}\label{classCSocketOutConnection_a26ac9c4b8a575dfde5a896879fa84fb4}
+\index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!````~C\+Socket\+Out\+Connection@{$\sim$\+C\+Socket\+Out\+Connection}}
+\index{````~C\+Socket\+Out\+Connection@{$\sim$\+C\+Socket\+Out\+Connection}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
+\subsubsection[{\texorpdfstring{$\sim$\+C\+Socket\+Out\+Connection()}{~CSocketOutConnection()}}]{\setlength{\rightskip}{0pt plus 5cm}virtual C\+Socket\+Out\+Connection\+::$\sim$\+C\+Socket\+Out\+Connection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classCSocketOutConnection_a1dec7524a61d96c85b008d6b3423a82a}{}\label{classCSocketOutConnection_a1dec7524a61d96c85b008d6b3423a82a}
 
 
 \subsection{Member Function Documentation}
+\index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!\+\_\+get\+Time\+Diff\+In\+Ms@{\+\_\+get\+Time\+Diff\+In\+Ms}}
+\index{\+\_\+get\+Time\+Diff\+In\+Ms@{\+\_\+get\+Time\+Diff\+In\+Ms}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+get\+Time\+Diff\+In\+Ms(int last\+Time)}{_getTimeDiffInMs(int lastTime)}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Socket\+Out\+Connection\+::\+\_\+get\+Time\+Diff\+In\+Ms (
+\begin{DoxyParamCaption}
+\item[{int}]{last\+Time}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketOutConnection_a975e026eda1a75091bc618f007f20809}{}\label{classCSocketOutConnection_a975e026eda1a75091bc618f007f20809}
 \index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!\+\_\+get\+Time\+Diff\+In\+Ms@{\+\_\+get\+Time\+Diff\+In\+Ms}}
 \index{\+\_\+get\+Time\+Diff\+In\+Ms@{\+\_\+get\+Time\+Diff\+In\+Ms}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
 \subsubsection[{\texorpdfstring{\+\_\+get\+Time\+Diff\+In\+Ms(int last\+Time)}{_getTimeDiffInMs(int lastTime)}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Socket\+Out\+Connection\+::\+\_\+get\+Time\+Diff\+In\+Ms (
@@ -83,6 +126,20 @@ unsigned short \hyperlink{classCSocketOutConnection_a4df79b453417a21cd75b94d6394
 {}
 \end{DoxyParamCaption}
 )\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketOutConnection_a48ea2d2223cb127fa3e856f9202400ec}{}\label{classCSocketOutConnection_a48ea2d2223cb127fa3e856f9202400ec}
+\index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!\+\_\+get\+Time\+In\+Ms@{\+\_\+get\+Time\+In\+Ms}}
+\index{\+\_\+get\+Time\+In\+Ms@{\+\_\+get\+Time\+In\+Ms}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+get\+Time\+In\+Ms()}{_getTimeInMs()}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Socket\+Out\+Connection\+::\+\_\+get\+Time\+In\+Ms (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketOutConnection_a48ea2d2223cb127fa3e856f9202400ec}{}\label{classCSocketOutConnection_a48ea2d2223cb127fa3e856f9202400ec}
+\index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!\+\_\+receive\+Simple\+Packet@{\+\_\+receive\+Simple\+Packet}}
+\index{\+\_\+receive\+Simple\+Packet@{\+\_\+receive\+Simple\+Packet}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+receive\+Simple\+Packet(std\+::vector$<$ char $>$ \&packet)}{_receiveSimplePacket(std::vector< char > &packet)}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Socket\+Out\+Connection\+::\+\_\+receive\+Simple\+Packet (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ char $>$ \&}]{packet}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketOutConnection_a8fe9c6ffe547417d37baa5737dcc6596}{}\label{classCSocketOutConnection_a8fe9c6ffe547417d37baa5737dcc6596}
 \index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!\+\_\+receive\+Simple\+Packet@{\+\_\+receive\+Simple\+Packet}}
 \index{\+\_\+receive\+Simple\+Packet@{\+\_\+receive\+Simple\+Packet}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
 \subsubsection[{\texorpdfstring{\+\_\+receive\+Simple\+Packet(std\+::vector$<$ char $>$ \&packet)}{_receiveSimplePacket(std::vector< char > &packet)}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Socket\+Out\+Connection\+::\+\_\+receive\+Simple\+Packet (
@@ -99,6 +156,22 @@ unsigned short \hyperlink{classCSocketOutConnection_a4df79b453417a21cd75b94d6394
 \item[{unsigned short}]{packets\+Left}
 \end{DoxyParamCaption}
 )\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketOutConnection_aecd4ed7366fe4d26b7aee7c40f2cb149}{}\label{classCSocketOutConnection_aecd4ed7366fe4d26b7aee7c40f2cb149}
+\index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!\+\_\+send\+Simple\+Packet@{\+\_\+send\+Simple\+Packet}}
+\index{\+\_\+send\+Simple\+Packet@{\+\_\+send\+Simple\+Packet}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+send\+Simple\+Packet(char $\ast$packet, int packet\+Length, unsigned short packets\+Left)}{_sendSimplePacket(char *packet, int packetLength, unsigned short packetsLeft)}}]{\setlength{\rightskip}{0pt plus 5cm}bool C\+Socket\+Out\+Connection\+::\+\_\+send\+Simple\+Packet (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{packet, }
+\item[{int}]{packet\+Length, }
+\item[{unsigned short}]{packets\+Left}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketOutConnection_aecd4ed7366fe4d26b7aee7c40f2cb149}{}\label{classCSocketOutConnection_aecd4ed7366fe4d26b7aee7c40f2cb149}
+\index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!connect\+To\+Server@{connect\+To\+Server}}
+\index{connect\+To\+Server@{connect\+To\+Server}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
+\subsubsection[{\texorpdfstring{connect\+To\+Server()}{connectToServer()}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Socket\+Out\+Connection\+::connect\+To\+Server (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classCSocketOutConnection_a1be707b8bc47610dbf58443acf270297}{}\label{classCSocketOutConnection_a1be707b8bc47610dbf58443acf270297}
 \index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!connect\+To\+Server@{connect\+To\+Server}}
 \index{connect\+To\+Server@{connect\+To\+Server}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
 \subsubsection[{\texorpdfstring{connect\+To\+Server()}{connectToServer()}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Socket\+Out\+Connection\+::connect\+To\+Server (
@@ -113,6 +186,21 @@ unsigned short \hyperlink{classCSocketOutConnection_a4df79b453417a21cd75b94d6394
 \item[{int \&}]{data\+Size}
 \end{DoxyParamCaption}
 )}\hypertarget{classCSocketOutConnection_a0255ab137779ad1ccc5687d579c2d14f}{}\label{classCSocketOutConnection_a0255ab137779ad1ccc5687d579c2d14f}
+\index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!receive\+Reply\+Data@{receive\+Reply\+Data}}
+\index{receive\+Reply\+Data@{receive\+Reply\+Data}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
+\subsubsection[{\texorpdfstring{receive\+Reply\+Data(int \&data\+Size)}{receiveReplyData(int &dataSize)}}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ C\+Socket\+Out\+Connection\+::receive\+Reply\+Data (
+\begin{DoxyParamCaption}
+\item[{int \&}]{data\+Size}
+\end{DoxyParamCaption}
+)}\hypertarget{classCSocketOutConnection_a0255ab137779ad1ccc5687d579c2d14f}{}\label{classCSocketOutConnection_a0255ab137779ad1ccc5687d579c2d14f}
+\index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!send\+Data@{send\+Data}}
+\index{send\+Data@{send\+Data}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
+\subsubsection[{\texorpdfstring{send\+Data(char $\ast$data, int data\+Size)}{sendData(char *data, int dataSize)}}]{\setlength{\rightskip}{0pt plus 5cm}bool C\+Socket\+Out\+Connection\+::send\+Data (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{data, }
+\item[{int}]{data\+Size}
+\end{DoxyParamCaption}
+)}\hypertarget{classCSocketOutConnection_a9266098d03f6f4f04941dcbc3a1f54f5}{}\label{classCSocketOutConnection_a9266098d03f6f4f04941dcbc3a1f54f5}
 \index{C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}!send\+Data@{send\+Data}}
 \index{send\+Data@{send\+Data}!C\+Socket\+Out\+Connection@{C\+Socket\+Out\+Connection}}
 \subsubsection[{\texorpdfstring{send\+Data(char $\ast$data, int data\+Size)}{sendData(char *data, int dataSize)}}]{\setlength{\rightskip}{0pt plus 5cm}bool C\+Socket\+Out\+Connection\+::send\+Data (
@@ -149,4 +237,4 @@ unsigned short \hyperlink{classCSocketOutConnection_a4df79b453417a21cd75b94d6394
 
 The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-\hyperlink{socketOutConnection_8h}{socket\+Out\+Connection.\+h}\end{DoxyCompactItemize}
+\hyperlink{KinovaHMICartesianControl_2socketOutConnection_8h}{Kinova\+H\+M\+I\+Cartesian\+Control/socket\+Out\+Connection.\+h}\end{DoxyCompactItemize}

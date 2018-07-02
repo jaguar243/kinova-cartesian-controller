@@ -1,5 +1,30 @@
 var searchData=
 [
-  ['novintfalcon',['novintFalcon',['../d2/d39/expt__HoloLensCartesianTeleop_8cpp.html#a5af8a150b7e3676a29b7844262dd4d6f',1,'expt_HoloLensCartesianTeleop.cpp']]],
-  ['novintfalconhapticsdevice',['NovintFalconHapticsDevice',['../d6/da6/classNovintFalconHapticsDevice.html',1,'']]]
+  ['main',['main',['../d0/d36/KinovaHMICartesianControl_2KinovaHMICartesianControl_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;KinovaHMICartesianControl.cpp'],['../d0/da0/KinovaHMICartesianControl_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main(int argc, char *argv[]):&#160;KinovaHMICartesianControl.cpp']]],
+  ['maxforce',['maxforce',['../d6/da6/classNovintFalconHapticsDevice.html#a8cdeb18d8b1e6468c6d4d2e3d2f3e55e',1,'NovintFalconHapticsDevice']]],
+  ['moveendeffectorpos',['MoveEndEffectorPos',['../d8/d06/classExperiment.html#a964fe7c5d4f78565bd98f3f1c860a01c',1,'Experiment::MoveEndEffectorPos(KinovaAPIFunctions kinova, float xe, float ze)'],['../d8/d06/classExperiment.html#a964fe7c5d4f78565bd98f3f1c860a01c',1,'Experiment::MoveEndEffectorPos(KinovaAPIFunctions kinova, float xe, float ze)']]],
+  ['movetostartpos',['MovetoStartPos',['../d8/d06/classExperiment.html#afe22dc21cf9b4a7b07ebb2f9b7eeafce',1,'Experiment::MovetoStartPos(KinovaAPIFunctions kinova)'],['../d8/d06/classExperiment.html#afe22dc21cf9b4a7b07ebb2f9b7eeafce',1,'Experiment::MovetoStartPos(KinovaAPIFunctions kinova)']]],
+  ['mycloseapi',['MyCloseAPI',['../d9/d19/classKinovaAPIFunctions.html#ae5a2cf251b235ccf8814ad80cace0644',1,'KinovaAPIFunctions']]],
+  ['mygetactualtrajectoryinfo',['MyGetActualTrajectoryInfo',['../d9/d19/classKinovaAPIFunctions.html#a3e97a6f0e744239e0ac581e782979cc0',1,'KinovaAPIFunctions']]],
+  ['mygetangularposition',['MyGetAngularPosition',['../d9/d19/classKinovaAPIFunctions.html#a13c78b6c5034339d03635268bd895b67',1,'KinovaAPIFunctions']]],
+  ['mygetcartesiancommand',['MyGetCartesianCommand',['../d9/d19/classKinovaAPIFunctions.html#a1fc9b14b6b44eb77d659c10a69b5c5cf',1,'KinovaAPIFunctions']]],
+  ['mygetcartesianposition',['MyGetCartesianPosition',['../d9/d19/classKinovaAPIFunctions.html#ad63c60c0295983280170e0702f1d28b4',1,'KinovaAPIFunctions']]],
+  ['mygetclientconfigurations',['MyGetClientConfigurations',['../d9/d19/classKinovaAPIFunctions.html#a1120b6b1e21b325a35a5931699f90062',1,'KinovaAPIFunctions']]],
+  ['mygetdevices',['MyGetDevices',['../d9/d19/classKinovaAPIFunctions.html#a9430806c9f3eee8318d7642e67771040',1,'KinovaAPIFunctions']]],
+  ['mygetglobaltrajectoryinfo',['MyGetGlobalTrajectoryInfo',['../d9/d19/classKinovaAPIFunctions.html#abbedf0c8f15beab985ac2084ba84715b',1,'KinovaAPIFunctions']]],
+  ['mygetgripperstatus',['MyGetGripperStatus',['../d9/d19/classKinovaAPIFunctions.html#accc1c9c658d15e8601457b5fcd4af5b2',1,'KinovaAPIFunctions']]],
+  ['myinitapi',['MyInitAPI',['../d9/d19/classKinovaAPIFunctions.html#a32397f27720f138bdc10773d33ef9da6',1,'KinovaAPIFunctions']]],
+  ['myinitfingers',['MyInitFingers',['../d9/d19/classKinovaAPIFunctions.html#a98b6741e75ab4b262a9bd630fdb9f562',1,'KinovaAPIFunctions']]],
+  ['mymovehome',['MyMoveHome',['../d9/d19/classKinovaAPIFunctions.html#a9a0b47551e606f15c4af278ea590f432',1,'KinovaAPIFunctions']]],
+  ['myrungravityzestimationsequence',['MyRunGravityZEstimationSequence',['../d9/d19/classKinovaAPIFunctions.html#aa85f280eadaef3a3add5d1678ff6800d',1,'KinovaAPIFunctions']]],
+  ['mysendbasictrajectory',['MySendBasicTrajectory',['../d9/d19/classKinovaAPIFunctions.html#a7d3719b97975ce3e016fb5777f10d309',1,'KinovaAPIFunctions']]],
+  ['mysendjoystickcommand',['MySendJoystickCommand',['../d9/d19/classKinovaAPIFunctions.html#ae63ffc76f91f13394d906c92984cccf3',1,'KinovaAPIFunctions']]],
+  ['mysetactivedevice',['MySetActiveDevice',['../d9/d19/classKinovaAPIFunctions.html#a6da4f8a8cb0a630cf94a761f3c96a279',1,'KinovaAPIFunctions']]],
+  ['mysetactuatorpid',['MySetActuatorPID',['../d9/d19/classKinovaAPIFunctions.html#a82347afb2e50ad710b1cec3a86e77a40',1,'KinovaAPIFunctions']]],
+  ['mysetclientconfigurations',['MySetClientConfigurations',['../d9/d19/classKinovaAPIFunctions.html#a73351e91fcffbb7ec2bf5a42bdd041f0',1,'KinovaAPIFunctions']]],
+  ['mysetgravityoptimalzparam',['MySetGravityOptimalZParam',['../d9/d19/classKinovaAPIFunctions.html#ae1ae1eadcee874446b8bb417c84b0dcb',1,'KinovaAPIFunctions']]],
+  ['mysetgravitytype',['MySetGravityType',['../d9/d19/classKinovaAPIFunctions.html#ae843b33c225f878073ad2c16bf71705e',1,'KinovaAPIFunctions']]],
+  ['mystartcontrolapi',['MyStartControlAPI',['../d9/d19/classKinovaAPIFunctions.html#a60a8664e5435f4f718819f1272819fd5',1,'KinovaAPIFunctions']]],
+  ['mystartforcecontrol',['MyStartForceControl',['../d9/d19/classKinovaAPIFunctions.html#a525d90a39a98a322f4c0bce674c53c6c',1,'KinovaAPIFunctions']]],
+  ['mystopforcecontrol',['MyStopForceControl',['../d9/d19/classKinovaAPIFunctions.html#af64a7c26aa505a9820da3e76d123a2a2',1,'KinovaAPIFunctions']]]
 ];

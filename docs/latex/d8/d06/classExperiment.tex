@@ -16,6 +16,16 @@ void \hyperlink{classExperiment_afe22dc21cf9b4a7b07ebb2f9b7eeafce}{Moveto\+Start
 void \hyperlink{classExperiment_a964fe7c5d4f78565bd98f3f1c860a01c}{Move\+End\+Effector\+Pos} (\hyperlink{classKinovaAPIFunctions}{Kinova\+A\+P\+I\+Functions} kinova, float xe, float ze)
 \item 
 bool \hyperlink{classExperiment_aedc226b0d88508dc7576686f808de0ea}{load\+\_\+\+L\+U\+T1D} (char $\ast$filename, char delim)
+\item 
+void \hyperlink{classExperiment_a6b40f95a20017941c6cb3e0d120bc998}{Holo\+Lens\+Cartesian\+Teleop} (char $\ast$argv\mbox{[}$\,$\mbox{]}, \hyperlink{classKinovaAPIFunctions}{Kinova\+A\+P\+I\+Functions} kinova)
+\item 
+double \hyperlink{classExperiment_a33a2f22c61afa5e85cb5a9004d62b4b3}{interp\+\_\+lut} (double t, double $\ast$y\+\_\+lut, int L\+\_\+lut, double Tp\+\_\+lut, double fs\+\_\+lut)
+\item 
+void \hyperlink{classExperiment_afe22dc21cf9b4a7b07ebb2f9b7eeafce}{Moveto\+Start\+Pos} (\hyperlink{classKinovaAPIFunctions}{Kinova\+A\+P\+I\+Functions} kinova)
+\item 
+void \hyperlink{classExperiment_a964fe7c5d4f78565bd98f3f1c860a01c}{Move\+End\+Effector\+Pos} (\hyperlink{classKinovaAPIFunctions}{Kinova\+A\+P\+I\+Functions} kinova, float xe, float ze)
+\item 
+bool \hyperlink{classExperiment_aedc226b0d88508dc7576686f808de0ea}{load\+\_\+\+L\+U\+T1D} (char $\ast$filename, char delim)
 \end{DoxyCompactItemize}
 \subsection*{Public Attributes}
 \begin{DoxyCompactItemize}
@@ -34,7 +44,7 @@ const double \hyperlink{classExperiment_a64ab0761b30b073656aa75760d2e230d}{fs\+\
 \item 
 double \hyperlink{classExperiment_ab599e3a9fd4a1529251af73c7a7d42c6}{scale\+\_\+\+L\+UT} = 1
 \item 
-double $\ast$ \hyperlink{classExperiment_abfa65531d9549c3df64e52a77a93352e}{L\+UT}
+double $\ast$ \hyperlink{classExperiment_a6489a27bcbcd76c45ac6cb742a34daa1}{L\+UT}
 \item 
 int \hyperlink{classExperiment_af6e1965489695707f8de14f8ee5b09a1}{len\+\_\+\+L\+UT}
 \item 
@@ -43,6 +53,14 @@ const float \hyperlink{classExperiment_a03450b58564f4dbecb58e773e1cf5e8b}{Kp} = 
 
 
 \subsection{Member Function Documentation}
+\index{Experiment@{Experiment}!Holo\+Lens\+Cartesian\+Teleop@{Holo\+Lens\+Cartesian\+Teleop}}
+\index{Holo\+Lens\+Cartesian\+Teleop@{Holo\+Lens\+Cartesian\+Teleop}!Experiment@{Experiment}}
+\subsubsection[{\texorpdfstring{Holo\+Lens\+Cartesian\+Teleop(char $\ast$argv[], Kinova\+A\+P\+I\+Functions kinova)}{HoloLensCartesianTeleop(char *argv[], KinovaAPIFunctions kinova)}}]{\setlength{\rightskip}{0pt plus 5cm}void Experiment\+::\+Holo\+Lens\+Cartesian\+Teleop (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}, }
+\item[{{\bf Kinova\+A\+P\+I\+Functions}}]{kinova}
+\end{DoxyParamCaption}
+)}\hypertarget{classExperiment_a6b40f95a20017941c6cb3e0d120bc998}{}\label{classExperiment_a6b40f95a20017941c6cb3e0d120bc998}
 \index{Experiment@{Experiment}!Holo\+Lens\+Cartesian\+Teleop@{Holo\+Lens\+Cartesian\+Teleop}}
 \index{Holo\+Lens\+Cartesian\+Teleop@{Holo\+Lens\+Cartesian\+Teleop}!Experiment@{Experiment}}
 \subsubsection[{\texorpdfstring{Holo\+Lens\+Cartesian\+Teleop(char $\ast$argv[], Kinova\+A\+P\+I\+Functions kinova)}{HoloLensCartesianTeleop(char *argv[], KinovaAPIFunctions kinova)}}]{\setlength{\rightskip}{0pt plus 5cm}void Experiment\+::\+Holo\+Lens\+Cartesian\+Teleop (
@@ -76,7 +94,18 @@ Inputs\+:
 Output\+:
 \begin{DoxyEnumerate}
 \item (double) \+: output of interpolation 
-\end{DoxyEnumerate}\index{Experiment@{Experiment}!load\+\_\+\+L\+U\+T1D@{load\+\_\+\+L\+U\+T1D}}
+\end{DoxyEnumerate}\index{Experiment@{Experiment}!interp\+\_\+lut@{interp\+\_\+lut}}
+\index{interp\+\_\+lut@{interp\+\_\+lut}!Experiment@{Experiment}}
+\subsubsection[{\texorpdfstring{interp\+\_\+lut(double t, double $\ast$y\+\_\+lut, int L\+\_\+lut, double Tp\+\_\+lut, double fs\+\_\+lut)}{interp_lut(double t, double *y_lut, int L_lut, double Tp_lut, double fs_lut)}}]{\setlength{\rightskip}{0pt plus 5cm}double Experiment\+::interp\+\_\+lut (
+\begin{DoxyParamCaption}
+\item[{double}]{t, }
+\item[{double $\ast$}]{y\+\_\+lut, }
+\item[{int}]{L\+\_\+lut, }
+\item[{double}]{Tp\+\_\+lut, }
+\item[{double}]{fs\+\_\+lut}
+\end{DoxyParamCaption}
+)}\hypertarget{classExperiment_a33a2f22c61afa5e85cb5a9004d62b4b3}{}\label{classExperiment_a33a2f22c61afa5e85cb5a9004d62b4b3}
+\index{Experiment@{Experiment}!load\+\_\+\+L\+U\+T1D@{load\+\_\+\+L\+U\+T1D}}
 \index{load\+\_\+\+L\+U\+T1D@{load\+\_\+\+L\+U\+T1D}!Experiment@{Experiment}}
 \subsubsection[{\texorpdfstring{load\+\_\+\+L\+U\+T1\+D(char $\ast$filename, char delim)}{load_LUT1D(char *filename, char delim)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Experiment\+::load\+\_\+\+L\+U\+T1D (
 \begin{DoxyParamCaption}
@@ -95,7 +124,15 @@ Inputs\+:
 Output\+:
 \begin{DoxyEnumerate}
 \item (bool) \+: Status of L\+UT load operation 
-\end{DoxyEnumerate}\index{Experiment@{Experiment}!Move\+End\+Effector\+Pos@{Move\+End\+Effector\+Pos}}
+\end{DoxyEnumerate}\index{Experiment@{Experiment}!load\+\_\+\+L\+U\+T1D@{load\+\_\+\+L\+U\+T1D}}
+\index{load\+\_\+\+L\+U\+T1D@{load\+\_\+\+L\+U\+T1D}!Experiment@{Experiment}}
+\subsubsection[{\texorpdfstring{load\+\_\+\+L\+U\+T1\+D(char $\ast$filename, char delim)}{load_LUT1D(char *filename, char delim)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Experiment\+::load\+\_\+\+L\+U\+T1D (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{char}]{delim}
+\end{DoxyParamCaption}
+)}\hypertarget{classExperiment_aedc226b0d88508dc7576686f808de0ea}{}\label{classExperiment_aedc226b0d88508dc7576686f808de0ea}
+\index{Experiment@{Experiment}!Move\+End\+Effector\+Pos@{Move\+End\+Effector\+Pos}}
 \index{Move\+End\+Effector\+Pos@{Move\+End\+Effector\+Pos}!Experiment@{Experiment}}
 \subsubsection[{\texorpdfstring{Move\+End\+Effector\+Pos(\+Kinova\+A\+P\+I\+Functions kinova, float xe, float ze)}{MoveEndEffectorPos(KinovaAPIFunctions kinova, float xe, float ze)}}]{\setlength{\rightskip}{0pt plus 5cm}void Experiment\+::\+Move\+End\+Effector\+Pos (
 \begin{DoxyParamCaption}
@@ -104,7 +141,29 @@ Output\+:
 \item[{float}]{ze}
 \end{DoxyParamCaption}
 )}\hypertarget{classExperiment_a964fe7c5d4f78565bd98f3f1c860a01c}{}\label{classExperiment_a964fe7c5d4f78565bd98f3f1c860a01c}
-\index{Experiment@{Experiment}!Moveto\+Start\+Pos@{Moveto\+Start\+Pos}}
+\index{Experiment@{Experiment}!Move\+End\+Effector\+Pos@{Move\+End\+Effector\+Pos}}
+\index{Move\+End\+Effector\+Pos@{Move\+End\+Effector\+Pos}!Experiment@{Experiment}}
+\subsubsection[{\texorpdfstring{Move\+End\+Effector\+Pos(\+Kinova\+A\+P\+I\+Functions kinova, float xe, float ze)}{MoveEndEffectorPos(KinovaAPIFunctions kinova, float xe, float ze)}}]{\setlength{\rightskip}{0pt plus 5cm}void Experiment\+::\+Move\+End\+Effector\+Pos (
+\begin{DoxyParamCaption}
+\item[{{\bf Kinova\+A\+P\+I\+Functions}}]{kinova, }
+\item[{float}]{xe, }
+\item[{float}]{ze}
+\end{DoxyParamCaption}
+)}\hypertarget{classExperiment_a964fe7c5d4f78565bd98f3f1c860a01c}{}\label{classExperiment_a964fe7c5d4f78565bd98f3f1c860a01c}
+Move End-\/\+Effector to Desired Position (Angular Control) \mbox{[}N\+OT U\+S\+ED IN E\+X\+P\+E\+R\+I\+M\+E\+NT\mbox{]} I\+N\+P\+U\+TS\+:~\newline
+
+\begin{DoxyEnumerate}
+\item (\hyperlink{classKinovaAPIFunctions}{Kinova\+A\+P\+I\+Functions}) kinova \+: A class object that can access the Kinova A\+PI to control/monitor the robot arm
+\item (float) xe \+: Desired Cartesian end-\/effector position in the X-\/direction
+\item (float) ze \+: Desired Cartesian end-\/effector position in the Z-\/direction 
+\end{DoxyEnumerate}\index{Experiment@{Experiment}!Moveto\+Start\+Pos@{Moveto\+Start\+Pos}}
+\index{Moveto\+Start\+Pos@{Moveto\+Start\+Pos}!Experiment@{Experiment}}
+\subsubsection[{\texorpdfstring{Moveto\+Start\+Pos(\+Kinova\+A\+P\+I\+Functions kinova)}{MovetoStartPos(KinovaAPIFunctions kinova)}}]{\setlength{\rightskip}{0pt plus 5cm}void Experiment\+::\+Moveto\+Start\+Pos (
+\begin{DoxyParamCaption}
+\item[{{\bf Kinova\+A\+P\+I\+Functions}}]{kinova}
+\end{DoxyParamCaption}
+)}\hypertarget{classExperiment_afe22dc21cf9b4a7b07ebb2f9b7eeafce}{}\label{classExperiment_afe22dc21cf9b4a7b07ebb2f9b7eeafce}
+Move the Robot Arm to the Start Position by setting the angular position of each joint\+: \mbox{[}270, 215, 90, 180\mbox{]} degrees \index{Experiment@{Experiment}!Moveto\+Start\+Pos@{Moveto\+Start\+Pos}}
 \index{Moveto\+Start\+Pos@{Moveto\+Start\+Pos}!Experiment@{Experiment}}
 \subsubsection[{\texorpdfstring{Moveto\+Start\+Pos(\+Kinova\+A\+P\+I\+Functions kinova)}{MovetoStartPos(KinovaAPIFunctions kinova)}}]{\setlength{\rightskip}{0pt plus 5cm}void Experiment\+::\+Moveto\+Start\+Pos (
 \begin{DoxyParamCaption}
@@ -128,7 +187,7 @@ Output\+:
 \subsubsection[{\texorpdfstring{len\+\_\+\+L\+UT}{len_LUT}}]{\setlength{\rightskip}{0pt plus 5cm}int Experiment\+::len\+\_\+\+L\+UT}\hypertarget{classExperiment_af6e1965489695707f8de14f8ee5b09a1}{}\label{classExperiment_af6e1965489695707f8de14f8ee5b09a1}
 \index{Experiment@{Experiment}!L\+UT@{L\+UT}}
 \index{L\+UT@{L\+UT}!Experiment@{Experiment}}
-\subsubsection[{\texorpdfstring{L\+UT}{LUT}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$ Experiment\+::\+L\+UT}\hypertarget{classExperiment_abfa65531d9549c3df64e52a77a93352e}{}\label{classExperiment_abfa65531d9549c3df64e52a77a93352e}
+\subsubsection[{\texorpdfstring{L\+UT}{LUT}}]{\setlength{\rightskip}{0pt plus 5cm}double $\ast$ Experiment\+::\+L\+UT}\hypertarget{classExperiment_a6489a27bcbcd76c45ac6cb742a34daa1}{}\label{classExperiment_a6489a27bcbcd76c45ac6cb742a34daa1}
 \index{Experiment@{Experiment}!scale\+\_\+\+L\+UT@{scale\+\_\+\+L\+UT}}
 \index{scale\+\_\+\+L\+UT@{scale\+\_\+\+L\+UT}!Experiment@{Experiment}}
 \subsubsection[{\texorpdfstring{scale\+\_\+\+L\+UT}{scale_LUT}}]{\setlength{\rightskip}{0pt plus 5cm}double Experiment\+::scale\+\_\+\+L\+UT = 1}\hypertarget{classExperiment_ab599e3a9fd4a1529251af73c7a7d42c6}{}\label{classExperiment_ab599e3a9fd4a1529251af73c7a7d42c6}
@@ -151,4 +210,4 @@ The documentation for this class was generated from the following files\+:\begin
 \hyperlink{CartesianControl_8h}{Cartesian\+Control.\+h}\item 
 \hyperlink{angularCommandControl_8cpp}{angular\+Command\+Control.\+cpp}\item 
 \hyperlink{expt__HoloLensCartesianTeleop_8cpp}{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}\item 
-\hyperlink{lutLinearInterp_8cpp}{lut\+Linear\+Interp.\+cpp}\end{DoxyCompactItemize}
+\hyperlink{KinovaHMICartesianControl_2lutLinearInterp_8cpp}{Kinova\+H\+M\+I\+Cartesian\+Control/lut\+Linear\+Interp.\+cpp}\end{DoxyCompactItemize}
