@@ -1,0 +1,527 @@
+\begin{theindex}
+
+  \item {\+\_\+\+W\+I\+N\+S\+O\+C\+K\+\_\+\+D\+E\+P\+R\+E\+C\+A\+T\+E\+D\+\_\+\+N\+O\+\_\+\+W\+A\+R\+N\+I\+N\+GS}
+    \subitem {angular\+Command\+Control.\+cpp}, \hyperpage{31}
+    \subitem {Cartesian\+Control.\+h}, \hyperpage{33}
+    \subitem {fir\+Filter.\+cpp}, \hyperpage{35}
+    \subitem {H\+M\+Ifunctions.\+cpp}, \hyperpage{35}
+    \subitem {lut\+Linear\+Interp.\+cpp}, \hyperpage{36}
+    \subitem {socket\+In\+Connection.\+cpp}, \hyperpage{37}
+  \item {\+\_\+\+X\+B\+O\+X\+\_\+\+C\+O\+N\+T\+R\+O\+L\+L\+E\+R\+\_\+\+H\+\_\+}
+    \subitem {Cartesian\+Control.\+h}, \hyperpage{33}
+  \item {\+\_\+get\+Time\+Diff\+In\+Ms}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{19}
+  \item {\+\_\+get\+Time\+In\+Ms}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{19}
+  \item {\+\_\+header\+Byte1}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{20}
+  \item {\+\_\+header\+Byte2}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{20}
+  \item {\+\_\+max\+Packet\+Size}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{20}
+  \item {\+\_\+receive\+Simple\+Packet}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{19}
+  \item {\+\_\+send\+Simple\+Packet}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{19}
+  \item {\+\_\+socket\+Client}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+  \item {\+\_\+socket\+Conn}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{20}
+  \item {\+\_\+socket\+Connect\+Was\+Ok}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+  \item {\+\_\+socket\+Connected\+Machine\+IP}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+  \item {\+\_\+socket\+Connection\+Address}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{20}
+  \item {\+\_\+socket\+Connection\+Port}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{20}
+  \item {\+\_\+socket\+Local}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+  \item {\+\_\+socket\+Server}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{20}
+  \item {\+\_\+socket\+The\+Set}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+  \item {$\sim$\+C\+Socket\+In\+Connection}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+  \item {$\sim$\+C\+Socket\+Out\+Connection}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{19}
+
+  \indexspace
+
+  \item {angular\+Command\+Control.\+cpp}, \hyperpage{31}
+    \subitem {\+\_\+\+W\+I\+N\+S\+O\+C\+K\+\_\+\+D\+E\+P\+R\+E\+C\+A\+T\+E\+D\+\_\+\+N\+O\+\_\+\+W\+A\+R\+N\+I\+N\+GS}, 
+		\hyperpage{31}
+    \subitem {W\+I\+N32\+\_\+\+L\+E\+A\+N\+\_\+\+A\+N\+D\+\_\+\+M\+E\+AN}, 
+		\hyperpage{31}
+  \item {angular\+Velocity}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{29}
+
+  \indexspace
+
+  \item {B\+U\+F\+F\+E\+R\+\_\+\+L\+EN}
+    \subitem {Cartesian\+Control.\+h}, \hyperpage{33}
+  \item {button0\+\_\+state}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{29}
+  \item {button2\+\_\+state}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{29}
+
+  \indexspace
+
+  \item {C\+Socket\+In\+Connection}, \hyperpage{17}
+    \subitem {\+\_\+get\+Time\+Diff\+In\+Ms}, \hyperpage{18}
+    \subitem {\+\_\+get\+Time\+In\+Ms}, \hyperpage{18}
+    \subitem {\+\_\+header\+Byte1}, \hyperpage{18}
+    \subitem {\+\_\+header\+Byte2}, \hyperpage{18}
+    \subitem {\+\_\+max\+Packet\+Size}, \hyperpage{18}
+    \subitem {\+\_\+receive\+Simple\+Packet}, \hyperpage{18}
+    \subitem {\+\_\+send\+Simple\+Packet}, \hyperpage{18}
+    \subitem {\+\_\+socket\+Client}, \hyperpage{18}
+    \subitem {\+\_\+socket\+Connect\+Was\+Ok}, \hyperpage{18}
+    \subitem {\+\_\+socket\+Connected\+Machine\+IP}, \hyperpage{18}
+    \subitem {\+\_\+socket\+Connection\+Port}, \hyperpage{18}
+    \subitem {\+\_\+socket\+Local}, \hyperpage{18}
+    \subitem {\+\_\+socket\+Server}, \hyperpage{18}
+    \subitem {\+\_\+socket\+The\+Set}, \hyperpage{18}
+    \subitem {$\sim$\+C\+Socket\+In\+Connection}, \hyperpage{18}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+    \subitem {connect\+To\+Client}, \hyperpage{18}
+    \subitem {get\+Connected\+Machine\+IP}, \hyperpage{18}
+    \subitem {receive\+Data}, \hyperpage{18}
+    \subitem {reply\+To\+Received\+Data}, \hyperpage{18}
+  \item {C\+Socket\+Out\+Connection}, \hyperpage{19}
+    \subitem {\+\_\+get\+Time\+Diff\+In\+Ms}, \hyperpage{19}
+    \subitem {\+\_\+get\+Time\+In\+Ms}, \hyperpage{19}
+    \subitem {\+\_\+header\+Byte1}, \hyperpage{20}
+    \subitem {\+\_\+header\+Byte2}, \hyperpage{20}
+    \subitem {\+\_\+max\+Packet\+Size}, \hyperpage{20}
+    \subitem {\+\_\+receive\+Simple\+Packet}, \hyperpage{19}
+    \subitem {\+\_\+send\+Simple\+Packet}, \hyperpage{19}
+    \subitem {\+\_\+socket\+Conn}, \hyperpage{20}
+    \subitem {\+\_\+socket\+Connection\+Address}, \hyperpage{20}
+    \subitem {\+\_\+socket\+Connection\+Port}, \hyperpage{20}
+    \subitem {\+\_\+socket\+Server}, \hyperpage{20}
+    \subitem {$\sim$\+C\+Socket\+Out\+Connection}, \hyperpage{19}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{19}
+    \subitem {connect\+To\+Server}, \hyperpage{20}
+    \subitem {receive\+Reply\+Data}, \hyperpage{20}
+    \subitem {send\+Data}, \hyperpage{20}
+  \item {C\+X\+B\+O\+X\+Controller}, \hyperpage{20}
+    \subitem {C\+X\+B\+O\+X\+Controller}, \hyperpage{21}
+    \subitem {Get\+State}, \hyperpage{21}
+    \subitem {Is\+Connected}, \hyperpage{21}
+    \subitem {Vibrate}, \hyperpage{21}
+  \item {Cartesian\+Control.\+h}, \hyperpage{31}
+    \subitem {\+\_\+\+W\+I\+N\+S\+O\+C\+K\+\_\+\+D\+E\+P\+R\+E\+C\+A\+T\+E\+D\+\_\+\+N\+O\+\_\+\+W\+A\+R\+N\+I\+N\+GS}, 
+		\hyperpage{33}
+    \subitem {\+\_\+\+X\+B\+O\+X\+\_\+\+C\+O\+N\+T\+R\+O\+L\+L\+E\+R\+\_\+\+H\+\_\+}, 
+		\hyperpage{33}
+    \subitem {B\+U\+F\+F\+E\+R\+\_\+\+L\+EN}, \hyperpage{33}
+    \subitem {G\+N\+U\+P\+L\+OT}, \hyperpage{33}
+    \subitem {U\+S\+E\+\_\+\+H\+A\+P\+T\+I\+CS}, \hyperpage{33}
+    \subitem {U\+S\+E\+\_\+\+K\+I\+N\+E\+CT}, \hyperpage{33}
+    \subitem {U\+S\+E\+\_\+\+K\+I\+N\+O\+VA}, \hyperpage{33}
+    \subitem {U\+S\+E\+\_\+\+T\+CP}, \hyperpage{33}
+    \subitem {W\+I\+N32\+\_\+\+L\+E\+A\+N\+\_\+\+A\+N\+D\+\_\+\+M\+E\+AN}, 
+		\hyperpage{33}
+  \item {coeffs}
+    \subitem {F\+I\+R\+Filter}, \hyperpage{24}
+  \item {command\+Layer\+\_\+handle}
+    \subitem {Kinova\+H\+M\+I\+Cartesian\+Control.\+cpp}, 
+		\hyperpage{36}
+  \item {connect\+To\+Client}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+  \item {connect\+To\+Server}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{20}
+  \item {cutoff\+\_\+freq\+\_\+hz}
+    \subitem {F\+I\+R\+Filter}, \hyperpage{24}
+
+  \indexspace
+
+  \item {depth\+Stream}
+    \subitem {kinect\+Skel\+Track}, \hyperpage{26}
+  \item {desired\+Position}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{29}
+  \item {desired\+Rotation}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{29}
+
+  \indexspace
+
+  \item {elapsed\+Time}
+    \subitem {Timer}, \hyperpage{30}
+  \item {Experiment}, \hyperpage{21}
+    \subitem {fs\+\_\+qd\+\_\+lut}, \hyperpage{23}
+    \subitem {fs\+\_\+uc\+\_\+lut}, \hyperpage{23}
+    \subitem {Holo\+Lens\+Cartesian\+Teleop}, \hyperpage{22}
+    \subitem {interp\+\_\+lut}, \hyperpage{22}
+    \subitem {Kp}, \hyperpage{23}
+    \subitem {L\+UT}, \hyperpage{23}
+    \subitem {len\+\_\+\+L\+UT}, \hyperpage{23}
+    \subitem {load\+\_\+\+L\+U\+T1D}, \hyperpage{22}
+    \subitem {Move\+End\+Effector\+Pos}, \hyperpage{22}
+    \subitem {Moveto\+Start\+Pos}, \hyperpage{23}
+    \subitem {scale\+\_\+\+L\+UT}, \hyperpage{23}
+    \subitem {T}, \hyperpage{23}
+    \subitem {T\+\_\+\+TF}, \hyperpage{23}
+    \subitem {T\+\_\+calib}, \hyperpage{23}
+    \subitem {Ts}, \hyperpage{23}
+  \item {expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}, 
+		\hyperpage{33}
+    \subitem {I\+N\+V\+E\+R\+S\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+L\+ER}, 
+		\hyperpage{34}
+    \subitem {L\+O\+A\+D\+\_\+\+U\+H\+X\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE}, 
+		\hyperpage{34}
+    \subitem {L\+O\+A\+D\+\_\+\+X\+M\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE}, 
+		\hyperpage{34}
+    \subitem {novint\+Falcon}, \hyperpage{34}
+    \subitem {T\+E\+S\+T\+\_\+1}, \hyperpage{34}
+    \subitem {T\+E\+S\+T\+\_\+2}, \hyperpage{34}
+    \subitem {T\+R\+A\+IN}, \hyperpage{34}
+
+  \indexspace
+
+  \item {F\+I\+R\+Filter}, \hyperpage{23}
+    \subitem {coeffs}, \hyperpage{24}
+    \subitem {cutoff\+\_\+freq\+\_\+hz}, \hyperpage{24}
+    \subitem {filename}, \hyperpage{25}
+    \subitem {fir\+Float}, \hyperpage{24}
+    \subitem {fir\+Float\+Init}, \hyperpage{24}
+    \subitem {insamp}, \hyperpage{25}
+    \subitem {length}, \hyperpage{25}
+    \subitem {output}, \hyperpage{25}
+  \item {filename}
+    \subitem {F\+I\+R\+Filter}, \hyperpage{25}
+  \item {fir\+Filter.\+cpp}, \hyperpage{34}
+    \subitem {\+\_\+\+W\+I\+N\+S\+O\+C\+K\+\_\+\+D\+E\+P\+R\+E\+C\+A\+T\+E\+D\+\_\+\+N\+O\+\_\+\+W\+A\+R\+N\+I\+N\+GS}, 
+		\hyperpage{35}
+  \item {fir\+Float}
+    \subitem {F\+I\+R\+Filter}, \hyperpage{24}
+  \item {fir\+Float\+Init}
+    \subitem {F\+I\+R\+Filter}, \hyperpage{24}
+  \item {fs\+\_\+qd\+\_\+lut}
+    \subitem {Experiment}, \hyperpage{23}
+  \item {fs\+\_\+uc\+\_\+lut}
+    \subitem {Experiment}, \hyperpage{23}
+
+  \indexspace
+
+  \item {G\+N\+U\+P\+L\+OT}
+    \subitem {Cartesian\+Control.\+h}, \hyperpage{33}
+  \item {get\+Connected\+Machine\+IP}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+  \item {get\+Kinect\+Data}
+    \subitem {kinect\+Skel\+Track}, \hyperpage{26}
+  \item {get\+Skeletal\+Data}
+    \subitem {kinect\+Skel\+Track}, \hyperpage{26}
+  \item {Get\+State}
+    \subitem {C\+X\+B\+O\+X\+Controller}, \hyperpage{21}
+
+  \indexspace
+
+  \item {H\+E\+A\+D\+E\+R\+\_\+\+L\+E\+N\+G\+TH}
+    \subitem {socket\+In\+Connection.\+cpp}, \hyperpage{37}
+  \item {H\+M\+Ifunctions.\+cpp}, \hyperpage{35}
+    \subitem {\+\_\+\+W\+I\+N\+S\+O\+C\+K\+\_\+\+D\+E\+P\+R\+E\+C\+A\+T\+E\+D\+\_\+\+N\+O\+\_\+\+W\+A\+R\+N\+I\+N\+GS}, 
+		\hyperpage{35}
+  \item {hand\+Position}
+    \subitem {kinect\+Skel\+Track\+::\+Kinect\+Info}, \hyperpage{25}
+  \item {handler}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{29}
+  \item {haptic\+Device}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{29}
+  \item {haptic\+Device\+Position}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{30}
+  \item {haptics\+Thread}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{30}
+  \item {height}
+    \subitem {kinect\+Skel\+Track}, \hyperpage{26}
+  \item {Holo\+Lens\+Cartesian\+Teleop}
+    \subitem {Experiment}, \hyperpage{22}
+
+  \indexspace
+
+  \item {I\+N\+V\+E\+R\+S\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+L\+ER}
+    \subitem {expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}, 
+		\hyperpage{34}
+  \item {init\+Kinect}
+    \subitem {kinect\+Skel\+Track}, \hyperpage{26}
+  \item {Initialize\+Haptics\+Device}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{29}
+  \item {insamp}
+    \subitem {F\+I\+R\+Filter}, \hyperpage{25}
+  \item {interp\+\_\+lut}
+    \subitem {Experiment}, \hyperpage{22}
+  \item {Is\+Connected}
+    \subitem {C\+X\+B\+O\+X\+Controller}, \hyperpage{21}
+  \item {is\+Running}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{30}
+  \item {is\+Timeout}
+    \subitem {Timer}, \hyperpage{30}
+
+  \indexspace
+
+  \item {kinect\+Skel\+Track}, \hyperpage{26}
+    \subitem {depth\+Stream}, \hyperpage{26}
+    \subitem {get\+Kinect\+Data}, \hyperpage{26}
+    \subitem {get\+Skeletal\+Data}, \hyperpage{26}
+    \subitem {height}, \hyperpage{26}
+    \subitem {init\+Kinect}, \hyperpage{26}
+    \subitem {sensor}, \hyperpage{26}
+    \subitem {skeleton\+Position}, \hyperpage{26}
+    \subitem {width}, \hyperpage{26}
+  \item {kinect\+Skel\+Track\+::\+Kinect\+Info}, \hyperpage{25}
+    \subitem {hand\+Position}, \hyperpage{25}
+    \subitem {start\+Signal}, \hyperpage{25}
+    \subitem {user\+Found}, \hyperpage{25}
+  \item {Kinova\+A\+P\+I\+Functions}, \hyperpage{27}
+    \subitem {My\+Close\+A\+PI}, \hyperpage{27}
+    \subitem {My\+Get\+Actual\+Trajectory\+Info}, \hyperpage{27}
+    \subitem {My\+Get\+Angular\+Position}, \hyperpage{27}
+    \subitem {My\+Get\+Cartesian\+Command}, \hyperpage{27}
+    \subitem {My\+Get\+Cartesian\+Position}, \hyperpage{27}
+    \subitem {My\+Get\+Client\+Configurations}, \hyperpage{27}
+    \subitem {My\+Get\+Devices}, \hyperpage{27}
+    \subitem {My\+Get\+Global\+Trajectory\+Info}, \hyperpage{27}
+    \subitem {My\+Get\+Gripper\+Status}, \hyperpage{27}
+    \subitem {My\+Init\+A\+PI}, \hyperpage{28}
+    \subitem {My\+Init\+Fingers}, \hyperpage{28}
+    \subitem {My\+Move\+Home}, \hyperpage{28}
+    \subitem {My\+Run\+Gravity\+Z\+Estimation\+Sequence}, 
+		\hyperpage{28}
+    \subitem {My\+Send\+Basic\+Trajectory}, \hyperpage{28}
+    \subitem {My\+Send\+Joystick\+Command}, \hyperpage{28}
+    \subitem {My\+Set\+Active\+Device}, \hyperpage{28}
+    \subitem {My\+Set\+Actuator\+P\+ID}, \hyperpage{28}
+    \subitem {My\+Set\+Client\+Configurations}, \hyperpage{28}
+    \subitem {My\+Set\+Gravity\+Optimal\+Z\+Param}, \hyperpage{28}
+    \subitem {My\+Set\+Gravity\+Type}, \hyperpage{28}
+    \subitem {My\+Start\+Control\+A\+PI}, \hyperpage{28}
+    \subitem {My\+Start\+Force\+Control}, \hyperpage{28}
+    \subitem {My\+Stop\+Force\+Control}, \hyperpage{28}
+  \item {Kinova\+H\+M\+I\+Cartesian\+Control.\+cpp}, \hyperpage{35}
+    \subitem {command\+Layer\+\_\+handle}, \hyperpage{36}
+    \subitem {main}, \hyperpage{36}
+  \item {Kp}
+    \subitem {Experiment}, \hyperpage{23}
+
+  \indexspace
+
+  \item {L\+O\+A\+D\+\_\+\+U\+H\+X\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE}
+    \subitem {expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}, 
+		\hyperpage{34}
+  \item {L\+O\+A\+D\+\_\+\+X\+M\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE}
+    \subitem {expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}, 
+		\hyperpage{34}
+  \item {L\+UT}
+    \subitem {Experiment}, \hyperpage{23}
+  \item {len\+\_\+\+L\+UT}
+    \subitem {Experiment}, \hyperpage{23}
+  \item {length}
+    \subitem {F\+I\+R\+Filter}, \hyperpage{25}
+  \item {linear\+Velocity}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{30}
+  \item {load\+\_\+\+L\+U\+T1D}
+    \subitem {Experiment}, \hyperpage{22}
+  \item {lut\+Linear\+Interp.\+cpp}, \hyperpage{36}
+    \subitem {\+\_\+\+W\+I\+N\+S\+O\+C\+K\+\_\+\+D\+E\+P\+R\+E\+C\+A\+T\+E\+D\+\_\+\+N\+O\+\_\+\+W\+A\+R\+N\+I\+N\+GS}, 
+		\hyperpage{36}
+    \subitem {W\+I\+N32\+\_\+\+L\+E\+A\+N\+\_\+\+A\+N\+D\+\_\+\+M\+E\+AN}, 
+		\hyperpage{36}
+
+  \indexspace
+
+  \item {main}
+    \subitem {Kinova\+H\+M\+I\+Cartesian\+Control.\+cpp}, 
+		\hyperpage{36}
+  \item {maxforce}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{30}
+  \item {Move\+End\+Effector\+Pos}
+    \subitem {Experiment}, \hyperpage{22}
+  \item {Moveto\+Start\+Pos}
+    \subitem {Experiment}, \hyperpage{23}
+  \item {My\+Close\+A\+PI}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{27}
+  \item {My\+Get\+Actual\+Trajectory\+Info}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{27}
+  \item {My\+Get\+Angular\+Position}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{27}
+  \item {My\+Get\+Cartesian\+Command}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{27}
+  \item {My\+Get\+Cartesian\+Position}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{27}
+  \item {My\+Get\+Client\+Configurations}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{27}
+  \item {My\+Get\+Devices}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{27}
+  \item {My\+Get\+Global\+Trajectory\+Info}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{27}
+  \item {My\+Get\+Gripper\+Status}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{27}
+  \item {My\+Init\+A\+PI}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Init\+Fingers}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Move\+Home}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Run\+Gravity\+Z\+Estimation\+Sequence}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Send\+Basic\+Trajectory}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Send\+Joystick\+Command}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Set\+Active\+Device}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Set\+Actuator\+P\+ID}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Set\+Client\+Configurations}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Set\+Gravity\+Optimal\+Z\+Param}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Set\+Gravity\+Type}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Start\+Control\+A\+PI}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Start\+Force\+Control}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+  \item {My\+Stop\+Force\+Control}
+    \subitem {Kinova\+A\+P\+I\+Functions}, \hyperpage{28}
+
+  \indexspace
+
+  \item {novint\+Falcon}
+    \subitem {expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}, 
+		\hyperpage{34}
+  \item {Novint\+Falcon\+Haptics\+Device}, \hyperpage{28}
+    \subitem {angular\+Velocity}, \hyperpage{29}
+    \subitem {button0\+\_\+state}, \hyperpage{29}
+    \subitem {button2\+\_\+state}, \hyperpage{29}
+    \subitem {desired\+Position}, \hyperpage{29}
+    \subitem {desired\+Rotation}, \hyperpage{29}
+    \subitem {handler}, \hyperpage{29}
+    \subitem {haptic\+Device}, \hyperpage{29}
+    \subitem {haptic\+Device\+Position}, \hyperpage{30}
+    \subitem {haptics\+Thread}, \hyperpage{30}
+    \subitem {Initialize\+Haptics\+Device}, \hyperpage{29}
+    \subitem {is\+Running}, \hyperpage{30}
+    \subitem {linear\+Velocity}, \hyperpage{30}
+    \subitem {maxforce}, \hyperpage{30}
+    \subitem {position}, \hyperpage{30}
+    \subitem {Reset\+IC}, \hyperpage{29}
+    \subitem {rotation}, \hyperpage{30}
+    \subitem {Update\+Haptics}, \hyperpage{29}
+    \subitem {use\+Damping}, \hyperpage{30}
+    \subitem {use\+Force\+Field}, \hyperpage{30}
+
+  \indexspace
+
+  \item {output}
+    \subitem {F\+I\+R\+Filter}, \hyperpage{25}
+
+  \indexspace
+
+  \item {position}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{30}
+
+  \indexspace
+
+  \item {receive\+Data}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+  \item {receive\+Reply\+Data}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{20}
+  \item {reply\+To\+Received\+Data}
+    \subitem {C\+Socket\+In\+Connection}, \hyperpage{18}
+  \item {Reset\+IC}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{29}
+  \item {rotation}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{30}
+
+  \indexspace
+
+  \item {scale\+\_\+\+L\+UT}
+    \subitem {Experiment}, \hyperpage{23}
+  \item {send\+Data}
+    \subitem {C\+Socket\+Out\+Connection}, \hyperpage{20}
+  \item {sensor}
+    \subitem {kinect\+Skel\+Track}, \hyperpage{26}
+  \item {skeleton\+Position}
+    \subitem {kinect\+Skel\+Track}, \hyperpage{26}
+  \item {socket\+In\+Connection.\+cpp}, \hyperpage{36}
+    \subitem {\+\_\+\+W\+I\+N\+S\+O\+C\+K\+\_\+\+D\+E\+P\+R\+E\+C\+A\+T\+E\+D\+\_\+\+N\+O\+\_\+\+W\+A\+R\+N\+I\+N\+GS}, 
+		\hyperpage{37}
+    \subitem {H\+E\+A\+D\+E\+R\+\_\+\+L\+E\+N\+G\+TH}, \hyperpage{37}
+  \item {socket\+In\+Connection.\+h}, \hyperpage{37}
+  \item {socket\+Out\+Connection.\+h}, \hyperpage{37}
+  \item {start}
+    \subitem {Timer}, \hyperpage{30}
+  \item {start\+Signal}
+    \subitem {kinect\+Skel\+Track\+::\+Kinect\+Info}, \hyperpage{25}
+  \item {stdafx.\+cpp}, \hyperpage{38}
+  \item {stdafx.\+h}, \hyperpage{39}
+
+  \indexspace
+
+  \item {T}
+    \subitem {Experiment}, \hyperpage{23}
+  \item {T\+\_\+\+TF}
+    \subitem {Experiment}, \hyperpage{23}
+  \item {T\+\_\+calib}
+    \subitem {Experiment}, \hyperpage{23}
+  \item {T\+E\+S\+T\+\_\+1}
+    \subitem {expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}, 
+		\hyperpage{34}
+  \item {T\+E\+S\+T\+\_\+2}
+    \subitem {expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}, 
+		\hyperpage{34}
+  \item {T\+R\+A\+IN}
+    \subitem {expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}, 
+		\hyperpage{34}
+  \item {targetver.\+h}, \hyperpage{39}
+  \item {Timer}, \hyperpage{30}
+    \subitem {elapsed\+Time}, \hyperpage{30}
+    \subitem {is\+Timeout}, \hyperpage{30}
+    \subitem {start}, \hyperpage{30}
+  \item {Ts}
+    \subitem {Experiment}, \hyperpage{23}
+
+  \indexspace
+
+  \item {U\+S\+E\+\_\+\+H\+A\+P\+T\+I\+CS}
+    \subitem {Cartesian\+Control.\+h}, \hyperpage{33}
+  \item {U\+S\+E\+\_\+\+K\+I\+N\+E\+CT}
+    \subitem {Cartesian\+Control.\+h}, \hyperpage{33}
+  \item {U\+S\+E\+\_\+\+K\+I\+N\+O\+VA}
+    \subitem {Cartesian\+Control.\+h}, \hyperpage{33}
+  \item {U\+S\+E\+\_\+\+T\+CP}
+    \subitem {Cartesian\+Control.\+h}, \hyperpage{33}
+  \item {Update\+Haptics}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{29}
+  \item {use\+Damping}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{30}
+  \item {use\+Force\+Field}
+    \subitem {Novint\+Falcon\+Haptics\+Device}, \hyperpage{30}
+  \item {user\+Found}
+    \subitem {kinect\+Skel\+Track\+::\+Kinect\+Info}, \hyperpage{25}
+
+  \indexspace
+
+  \item {Vibrate}
+    \subitem {C\+X\+B\+O\+X\+Controller}, \hyperpage{21}
+
+  \indexspace
+
+  \item {W\+I\+N32\+\_\+\+L\+E\+A\+N\+\_\+\+A\+N\+D\+\_\+\+M\+E\+AN}
+    \subitem {angular\+Command\+Control.\+cpp}, \hyperpage{31}
+    \subitem {Cartesian\+Control.\+h}, \hyperpage{33}
+    \subitem {lut\+Linear\+Interp.\+cpp}, \hyperpage{36}
+  \item {width}
+    \subitem {kinect\+Skel\+Track}, \hyperpage{26}
+
+\end{theindex}

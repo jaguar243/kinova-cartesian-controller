@@ -1,0 +1,23 @@
+This project was built in Visual Studio 2017 (Community Edition) and the solution file is provided for reference. Additional dependencies need to be installed before building this project with the source and library files from the dependencies correctly linked to the project. Instructions for setting up the project and building it are presented below.\hypertarget{install_install_dependencies}{}\section{Install Dependencies}\label{install_install_dependencies}
+The following are the list of dependencies that are used in this project\+:
+\begin{DoxyItemize}
+\item \hyperlink{install_kinova_sdk}{Kinova Mico2 S\+DK} \mbox{[}to control the Kinova Mico-\/2 robot arm\mbox{]}
+\item \hyperlink{install_kinect_sdk}{Kinect S\+DK v1.\+8} \mbox{[}to use the Microsoft Kinect sensor for skeleton tracking\mbox{]}
+\item \hyperlink{install_chai3d_sdk}{C\+H\+A\+I3D (version 3.\+2.\+0)} \mbox{[}to use the Novint Falcon Haptics controller\mbox{]}
+\end{DoxyItemize}\hypertarget{install_kinova_sdk}{}\subsection{Kinova Mico2 S\+DK}\label{install_kinova_sdk}
+
+\begin{DoxyEnumerate}
+\item Download the S\+DK from the \href{https://www.kinovarobotics.com/en/knowledge-hub/all-kinova-products}{\tt Kinova website} and follow the instructions in the documentation to install the 32-\/bit version of the A\+PI.
+\item Set the System Environment Variable K\+I\+N\+O\+V\+A\+S\+D\+K\+\_\+\+D\+IR to the installation directory.
+\end{DoxyEnumerate}\hypertarget{install_kinect_sdk}{}\subsection{Kinect S\+D\+K v1.\+8}\label{install_kinect_sdk}
+
+\begin{DoxyEnumerate}
+\item Download and install the Kinect v1.\+8 S\+DK from the \href{https://www.microsoft.com/en-us/download/details.aspx?id=40278}{\tt Microsoft website} and follow the instructions in the documentation to install the 32-\/but version of the A\+PI.
+\item Check whether the system environment variable K\+I\+N\+E\+C\+T\+S\+D\+K10\+\_\+\+D\+IR is set to the correct installation directory.
+\end{DoxyEnumerate}\hypertarget{install_chai3d_sdk}{}\subsection{C\+H\+A\+I3\+D (version 3.\+2.\+0)}\label{install_chai3d_sdk}
+
+\begin{DoxyEnumerate}
+\item Download the multiplatform version of the C\+H\+A\+I3D S\+DK (currently tested with version 3.\+2.\+0) from the \href{http://www.chai3d.org/download/releases}{\tt C\+H\+A\+I3D website}
+\item Install the dependencies (H\+D\+F5 and Z\+L\+IB) and build the appropriate Visual Studio Solution that matches the available edition.
+\item Set the system environment variable C\+H\+A\+I3\+D\+\_\+\+D\+IR to the installation directory 
+\end{DoxyEnumerate}

@@ -1,0 +1,131 @@
+\hypertarget{classNovintFalconHapticsDevice}{}\section{Novint\+Falcon\+Haptics\+Device Class Reference}
+\label{classNovintFalconHapticsDevice}\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+
+
+{\ttfamily \#include $<$Cartesian\+Control.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classNovintFalconHapticsDevice_ac4fe257d1b4ebb3bca073bae6f8a3542}{Initialize\+Haptics\+Device} ()
+\item 
+void \hyperlink{classNovintFalconHapticsDevice_a6f3fa36cd75a7a4c53950f5552f82ad2}{Update\+Haptics} (void)
+\item 
+void \hyperlink{classNovintFalconHapticsDevice_a49d2c9beea12a5b1c5b42e9f77d453ad}{Reset\+IC} (void)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+chai3d\+::c\+Generic\+Haptic\+Device\+Ptr \hyperlink{classNovintFalconHapticsDevice_aa5184bbe68246d129003f66c3d5a9628}{haptic\+Device}
+\item 
+chai3d\+::c\+Vector3d \hyperlink{classNovintFalconHapticsDevice_a7815111e1968006b1a6848c040e0e310}{haptic\+Device\+Position}
+\item 
+chai3d\+::c\+Thread $\ast$ \hyperlink{classNovintFalconHapticsDevice_a7257d16146ffc12eed6044a7321b7397}{haptics\+Thread}
+\item 
+chai3d\+::c\+Haptic\+Device\+Handler $\ast$ \hyperlink{classNovintFalconHapticsDevice_a64bca002d3939aede4ecbabbe2613865}{handler}
+\item 
+double \hyperlink{classNovintFalconHapticsDevice_a8cdeb18d8b1e6468c6d4d2e3d2f3e55e}{maxforce} = 1
+\item 
+chai3d\+::c\+Vector3d \hyperlink{classNovintFalconHapticsDevice_a31027f37186c69612aaab345f6db4b2b}{position}
+\item 
+chai3d\+::c\+Matrix3d \hyperlink{classNovintFalconHapticsDevice_a28cf6108da9a0a2fd1830e517b4eb1f7}{rotation}
+\item 
+chai3d\+::c\+Vector3d \hyperlink{classNovintFalconHapticsDevice_a59f432627f7b981c9555216997110bcc}{linear\+Velocity}
+\item 
+chai3d\+::c\+Vector3d \hyperlink{classNovintFalconHapticsDevice_a8f71db7ac35c67569dac444e8ac91bb4}{angular\+Velocity}
+\item 
+chai3d\+::c\+Vector3d \hyperlink{classNovintFalconHapticsDevice_afcd63a3be7d519dd7f983414f9e0f24c}{desired\+Position}
+\item 
+chai3d\+::c\+Matrix3d \hyperlink{classNovintFalconHapticsDevice_acb82e8e4273b4979aae7cba6989058b6}{desired\+Rotation}
+\item 
+bool \hyperlink{classNovintFalconHapticsDevice_afa3018d647b1096332fc0076b9b70733}{is\+Running} = false
+\item 
+bool \hyperlink{classNovintFalconHapticsDevice_addebfcfc98d7e5593e369beea025e1bf}{button0\+\_\+state} = false
+\item 
+bool \hyperlink{classNovintFalconHapticsDevice_af016391ef02d82857ad1e65bf32faaa3}{button2\+\_\+state} = false
+\item 
+bool \hyperlink{classNovintFalconHapticsDevice_a8343a6b7e8c05449d1fd4daf39f346a9}{use\+Damping} = false
+\item 
+bool \hyperlink{classNovintFalconHapticsDevice_ab057b4217959d896c52fc5167be1314d}{use\+Force\+Field} = false
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!Initialize\+Haptics\+Device@{Initialize\+Haptics\+Device}}
+\index{Initialize\+Haptics\+Device@{Initialize\+Haptics\+Device}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{Initialize\+Haptics\+Device()}{InitializeHapticsDevice()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Novint\+Falcon\+Haptics\+Device\+::\+Initialize\+Haptics\+Device (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classNovintFalconHapticsDevice_ac4fe257d1b4ebb3bca073bae6f8a3542}{}\label{classNovintFalconHapticsDevice_ac4fe257d1b4ebb3bca073bae6f8a3542}
+Initialize the Novint Falcon Haptics device \index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!Reset\+IC@{Reset\+IC}}
+\index{Reset\+IC@{Reset\+IC}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{Reset\+I\+C(void)}{ResetIC(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void Novint\+Falcon\+Haptics\+Device\+::\+Reset\+IC (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{classNovintFalconHapticsDevice_a49d2c9beea12a5b1c5b42e9f77d453ad}{}\label{classNovintFalconHapticsDevice_a49d2c9beea12a5b1c5b42e9f77d453ad}
+Reset the Haptics Device and apply a feedback force towards the center of the joystick \index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!Update\+Haptics@{Update\+Haptics}}
+\index{Update\+Haptics@{Update\+Haptics}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{Update\+Haptics(void)}{UpdateHaptics(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void Novint\+Falcon\+Haptics\+Device\+::\+Update\+Haptics (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{classNovintFalconHapticsDevice_a6f3fa36cd75a7a4c53950f5552f82ad2}{}\label{classNovintFalconHapticsDevice_a6f3fa36cd75a7a4c53950f5552f82ad2}
+Update the current position of the Haptics joystick 
+
+\subsection{Member Data Documentation}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!angular\+Velocity@{angular\+Velocity}}
+\index{angular\+Velocity@{angular\+Velocity}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{angular\+Velocity}{angularVelocity}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Vector3d Novint\+Falcon\+Haptics\+Device\+::angular\+Velocity}\hypertarget{classNovintFalconHapticsDevice_a8f71db7ac35c67569dac444e8ac91bb4}{}\label{classNovintFalconHapticsDevice_a8f71db7ac35c67569dac444e8ac91bb4}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!button0\+\_\+state@{button0\+\_\+state}}
+\index{button0\+\_\+state@{button0\+\_\+state}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{button0\+\_\+state}{button0_state}}]{\setlength{\rightskip}{0pt plus 5cm}bool Novint\+Falcon\+Haptics\+Device\+::button0\+\_\+state = false}\hypertarget{classNovintFalconHapticsDevice_addebfcfc98d7e5593e369beea025e1bf}{}\label{classNovintFalconHapticsDevice_addebfcfc98d7e5593e369beea025e1bf}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!button2\+\_\+state@{button2\+\_\+state}}
+\index{button2\+\_\+state@{button2\+\_\+state}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{button2\+\_\+state}{button2_state}}]{\setlength{\rightskip}{0pt plus 5cm}bool Novint\+Falcon\+Haptics\+Device\+::button2\+\_\+state = false}\hypertarget{classNovintFalconHapticsDevice_af016391ef02d82857ad1e65bf32faaa3}{}\label{classNovintFalconHapticsDevice_af016391ef02d82857ad1e65bf32faaa3}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!desired\+Position@{desired\+Position}}
+\index{desired\+Position@{desired\+Position}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{desired\+Position}{desiredPosition}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Vector3d Novint\+Falcon\+Haptics\+Device\+::desired\+Position}\hypertarget{classNovintFalconHapticsDevice_afcd63a3be7d519dd7f983414f9e0f24c}{}\label{classNovintFalconHapticsDevice_afcd63a3be7d519dd7f983414f9e0f24c}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!desired\+Rotation@{desired\+Rotation}}
+\index{desired\+Rotation@{desired\+Rotation}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{desired\+Rotation}{desiredRotation}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Matrix3d Novint\+Falcon\+Haptics\+Device\+::desired\+Rotation}\hypertarget{classNovintFalconHapticsDevice_acb82e8e4273b4979aae7cba6989058b6}{}\label{classNovintFalconHapticsDevice_acb82e8e4273b4979aae7cba6989058b6}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!handler@{handler}}
+\index{handler@{handler}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{handler}{handler}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Haptic\+Device\+Handler$\ast$ Novint\+Falcon\+Haptics\+Device\+::handler}\hypertarget{classNovintFalconHapticsDevice_a64bca002d3939aede4ecbabbe2613865}{}\label{classNovintFalconHapticsDevice_a64bca002d3939aede4ecbabbe2613865}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!haptic\+Device@{haptic\+Device}}
+\index{haptic\+Device@{haptic\+Device}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{haptic\+Device}{hapticDevice}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Generic\+Haptic\+Device\+Ptr Novint\+Falcon\+Haptics\+Device\+::haptic\+Device}\hypertarget{classNovintFalconHapticsDevice_aa5184bbe68246d129003f66c3d5a9628}{}\label{classNovintFalconHapticsDevice_aa5184bbe68246d129003f66c3d5a9628}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!haptic\+Device\+Position@{haptic\+Device\+Position}}
+\index{haptic\+Device\+Position@{haptic\+Device\+Position}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{haptic\+Device\+Position}{hapticDevicePosition}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Vector3d Novint\+Falcon\+Haptics\+Device\+::haptic\+Device\+Position}\hypertarget{classNovintFalconHapticsDevice_a7815111e1968006b1a6848c040e0e310}{}\label{classNovintFalconHapticsDevice_a7815111e1968006b1a6848c040e0e310}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!haptics\+Thread@{haptics\+Thread}}
+\index{haptics\+Thread@{haptics\+Thread}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{haptics\+Thread}{hapticsThread}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Thread$\ast$ Novint\+Falcon\+Haptics\+Device\+::haptics\+Thread}\hypertarget{classNovintFalconHapticsDevice_a7257d16146ffc12eed6044a7321b7397}{}\label{classNovintFalconHapticsDevice_a7257d16146ffc12eed6044a7321b7397}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!is\+Running@{is\+Running}}
+\index{is\+Running@{is\+Running}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{is\+Running}{isRunning}}]{\setlength{\rightskip}{0pt plus 5cm}bool Novint\+Falcon\+Haptics\+Device\+::is\+Running = false}\hypertarget{classNovintFalconHapticsDevice_afa3018d647b1096332fc0076b9b70733}{}\label{classNovintFalconHapticsDevice_afa3018d647b1096332fc0076b9b70733}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!linear\+Velocity@{linear\+Velocity}}
+\index{linear\+Velocity@{linear\+Velocity}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{linear\+Velocity}{linearVelocity}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Vector3d Novint\+Falcon\+Haptics\+Device\+::linear\+Velocity}\hypertarget{classNovintFalconHapticsDevice_a59f432627f7b981c9555216997110bcc}{}\label{classNovintFalconHapticsDevice_a59f432627f7b981c9555216997110bcc}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!maxforce@{maxforce}}
+\index{maxforce@{maxforce}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{maxforce}{maxforce}}]{\setlength{\rightskip}{0pt plus 5cm}double Novint\+Falcon\+Haptics\+Device\+::maxforce = 1}\hypertarget{classNovintFalconHapticsDevice_a8cdeb18d8b1e6468c6d4d2e3d2f3e55e}{}\label{classNovintFalconHapticsDevice_a8cdeb18d8b1e6468c6d4d2e3d2f3e55e}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!position@{position}}
+\index{position@{position}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{position}{position}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Vector3d Novint\+Falcon\+Haptics\+Device\+::position}\hypertarget{classNovintFalconHapticsDevice_a31027f37186c69612aaab345f6db4b2b}{}\label{classNovintFalconHapticsDevice_a31027f37186c69612aaab345f6db4b2b}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!rotation@{rotation}}
+\index{rotation@{rotation}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{rotation}{rotation}}]{\setlength{\rightskip}{0pt plus 5cm}chai3d\+::c\+Matrix3d Novint\+Falcon\+Haptics\+Device\+::rotation}\hypertarget{classNovintFalconHapticsDevice_a28cf6108da9a0a2fd1830e517b4eb1f7}{}\label{classNovintFalconHapticsDevice_a28cf6108da9a0a2fd1830e517b4eb1f7}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!use\+Damping@{use\+Damping}}
+\index{use\+Damping@{use\+Damping}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{use\+Damping}{useDamping}}]{\setlength{\rightskip}{0pt plus 5cm}bool Novint\+Falcon\+Haptics\+Device\+::use\+Damping = false}\hypertarget{classNovintFalconHapticsDevice_a8343a6b7e8c05449d1fd4daf39f346a9}{}\label{classNovintFalconHapticsDevice_a8343a6b7e8c05449d1fd4daf39f346a9}
+\index{Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}!use\+Force\+Field@{use\+Force\+Field}}
+\index{use\+Force\+Field@{use\+Force\+Field}!Novint\+Falcon\+Haptics\+Device@{Novint\+Falcon\+Haptics\+Device}}
+\subsubsection[{\texorpdfstring{use\+Force\+Field}{useForceField}}]{\setlength{\rightskip}{0pt plus 5cm}bool Novint\+Falcon\+Haptics\+Device\+::use\+Force\+Field = false}\hypertarget{classNovintFalconHapticsDevice_ab057b4217959d896c52fc5167be1314d}{}\label{classNovintFalconHapticsDevice_ab057b4217959d896c52fc5167be1314d}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{CartesianControl_8h}{Cartesian\+Control.\+h}\item 
+\hyperlink{HMIfunctions_8cpp}{H\+M\+Ifunctions.\+cpp}\end{DoxyCompactItemize}

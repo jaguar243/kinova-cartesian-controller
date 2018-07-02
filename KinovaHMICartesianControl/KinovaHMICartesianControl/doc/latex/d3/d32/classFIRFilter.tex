@@ -1,0 +1,115 @@
+\hypertarget{classFIRFilter}{}\section{F\+I\+R\+Filter Class Reference}
+\label{classFIRFilter}\index{F\+I\+R\+Filter@{F\+I\+R\+Filter}}
+
+
+{\ttfamily \#include $<$Cartesian\+Control.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classFIRFilter_a03b7ef73545b59416afe789235b4404a}{fir\+Float\+Init} ()
+\begin{DoxyCompactList}\small\item\em Function to initialize the F\+IR Filter. \end{DoxyCompactList}\item 
+double $\ast$ \hyperlink{classFIRFilter_aca52df7e1d89d1c324489daaff6fa526}{fir\+Float} (double $\ast$input, int \hyperlink{classFIRFilter_a4e697a78993656c942005939a3439b3f}{length})
+\begin{DoxyCompactList}\small\item\em Function to compute the output of the F\+IR Filter. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const char $\ast$ \hyperlink{classFIRFilter_af15d0e43051eb388273fe4b575e7e791}{filename} = \char`\"{}./lowpass.\+mat\char`\"{}
+\begin{DoxyCompactList}\small\item\em Filename of F\+IR Filter weights. \end{DoxyCompactList}\item 
+int \hyperlink{classFIRFilter_a4e697a78993656c942005939a3439b3f}{length} = 1
+\item 
+double $\ast$ \hyperlink{classFIRFilter_a0a616fd678a499167f252253b2300c76}{output} = new double\mbox{[}\hyperlink{classFIRFilter_a4e697a78993656c942005939a3439b3f}{length}\mbox{]}
+\item 
+double \hyperlink{classFIRFilter_a3998b6c0cda5c66c708238ee679c415e}{insamp} \mbox{[}\hyperlink{CartesianControl_8h_a46130dc86f2322714bba26960b64e7bb}{B\+U\+F\+F\+E\+R\+\_\+\+L\+EN}\mbox{]}
+\begin{DoxyCompactList}\small\item\em buffer array to hold input samples \end{DoxyCompactList}\item 
+double $\ast$ \hyperlink{classFIRFilter_a52132dfc0390a6124ecd557f77d87084}{coeffs}
+\begin{DoxyCompactList}\small\item\em F\+IR Filter weights. \end{DoxyCompactList}\item 
+double \hyperlink{classFIRFilter_a038a40d113cdbcdef9d215f79d5e22bf}{cutoff\+\_\+freq\+\_\+hz} = 0.\+2
+\begin{DoxyCompactList}\small\item\em Cutoff frequency of the F\+IR Filter in Hz. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\index{F\+I\+R\+Filter@{F\+I\+R\+Filter}!fir\+Float@{fir\+Float}}
+\index{fir\+Float@{fir\+Float}!F\+I\+R\+Filter@{F\+I\+R\+Filter}}
+\subsubsection[{\texorpdfstring{fir\+Float(double $\ast$input, int length)}{firFloat(double *input, int length)}}]{\setlength{\rightskip}{0pt plus 5cm}double $\ast$ F\+I\+R\+Filter\+::fir\+Float (
+\begin{DoxyParamCaption}
+\item[{double $\ast$}]{input, }
+\item[{int}]{length}
+\end{DoxyParamCaption}
+)}\hypertarget{classFIRFilter_aca52df7e1d89d1c324489daaff6fa526}{}\label{classFIRFilter_aca52df7e1d89d1c324489daaff6fa526}
+
+
+Function to compute the output of the F\+IR Filter. 
+
+F\+IR Filter Computation
+
+This function computes the output of the F\+IR Filter for the given content of the input buffer in three steps\+:
+
+1) Put new input at the high end of the buffer~\newline
+2) Apply the filter to each input sample~\newline
+3) Shift input samples back in time for next time instant~\newline
+\index{F\+I\+R\+Filter@{F\+I\+R\+Filter}!fir\+Float\+Init@{fir\+Float\+Init}}
+\index{fir\+Float\+Init@{fir\+Float\+Init}!F\+I\+R\+Filter@{F\+I\+R\+Filter}}
+\subsubsection[{\texorpdfstring{fir\+Float\+Init()}{firFloatInit()}}]{\setlength{\rightskip}{0pt plus 5cm}bool F\+I\+R\+Filter\+::fir\+Float\+Init (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classFIRFilter_a03b7ef73545b59416afe789235b4404a}{}\label{classFIRFilter_a03b7ef73545b59416afe789235b4404a}
+
+
+Function to initialize the F\+IR Filter. 
+
+F\+IR Filter Initialization
+
+This function initializes the F\+IR filter by searching for a C\+SV file formatted as
+
+num\+\_\+weights~\newline
+w1~\newline
+w2~\newline
+.~\newline
+.~\newline
+.~\newline
+wn~\newline
+ which is read into the coeffs variable. 
+
+\subsection{Member Data Documentation}
+\index{F\+I\+R\+Filter@{F\+I\+R\+Filter}!coeffs@{coeffs}}
+\index{coeffs@{coeffs}!F\+I\+R\+Filter@{F\+I\+R\+Filter}}
+\subsubsection[{\texorpdfstring{coeffs}{coeffs}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$ F\+I\+R\+Filter\+::coeffs}\hypertarget{classFIRFilter_a52132dfc0390a6124ecd557f77d87084}{}\label{classFIRFilter_a52132dfc0390a6124ecd557f77d87084}
+
+
+F\+IR Filter weights. 
+
+\index{F\+I\+R\+Filter@{F\+I\+R\+Filter}!cutoff\+\_\+freq\+\_\+hz@{cutoff\+\_\+freq\+\_\+hz}}
+\index{cutoff\+\_\+freq\+\_\+hz@{cutoff\+\_\+freq\+\_\+hz}!F\+I\+R\+Filter@{F\+I\+R\+Filter}}
+\subsubsection[{\texorpdfstring{cutoff\+\_\+freq\+\_\+hz}{cutoff_freq_hz}}]{\setlength{\rightskip}{0pt plus 5cm}double F\+I\+R\+Filter\+::cutoff\+\_\+freq\+\_\+hz = 0.\+2}\hypertarget{classFIRFilter_a038a40d113cdbcdef9d215f79d5e22bf}{}\label{classFIRFilter_a038a40d113cdbcdef9d215f79d5e22bf}
+
+
+Cutoff frequency of the F\+IR Filter in Hz. 
+
+\index{F\+I\+R\+Filter@{F\+I\+R\+Filter}!filename@{filename}}
+\index{filename@{filename}!F\+I\+R\+Filter@{F\+I\+R\+Filter}}
+\subsubsection[{\texorpdfstring{filename}{filename}}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ F\+I\+R\+Filter\+::filename = \char`\"{}./lowpass.\+mat\char`\"{}}\hypertarget{classFIRFilter_af15d0e43051eb388273fe4b575e7e791}{}\label{classFIRFilter_af15d0e43051eb388273fe4b575e7e791}
+
+
+Filename of F\+IR Filter weights. 
+
+\index{F\+I\+R\+Filter@{F\+I\+R\+Filter}!insamp@{insamp}}
+\index{insamp@{insamp}!F\+I\+R\+Filter@{F\+I\+R\+Filter}}
+\subsubsection[{\texorpdfstring{insamp}{insamp}}]{\setlength{\rightskip}{0pt plus 5cm}double F\+I\+R\+Filter\+::insamp\mbox{[}{\bf B\+U\+F\+F\+E\+R\+\_\+\+L\+EN}\mbox{]}}\hypertarget{classFIRFilter_a3998b6c0cda5c66c708238ee679c415e}{}\label{classFIRFilter_a3998b6c0cda5c66c708238ee679c415e}
+
+
+buffer array to hold input samples 
+
+\index{F\+I\+R\+Filter@{F\+I\+R\+Filter}!length@{length}}
+\index{length@{length}!F\+I\+R\+Filter@{F\+I\+R\+Filter}}
+\subsubsection[{\texorpdfstring{length}{length}}]{\setlength{\rightskip}{0pt plus 5cm}int F\+I\+R\+Filter\+::length = 1}\hypertarget{classFIRFilter_a4e697a78993656c942005939a3439b3f}{}\label{classFIRFilter_a4e697a78993656c942005939a3439b3f}
+\index{F\+I\+R\+Filter@{F\+I\+R\+Filter}!output@{output}}
+\index{output@{output}!F\+I\+R\+Filter@{F\+I\+R\+Filter}}
+\subsubsection[{\texorpdfstring{output}{output}}]{\setlength{\rightskip}{0pt plus 5cm}double$\ast$ F\+I\+R\+Filter\+::output = new double\mbox{[}{\bf length}\mbox{]}}\hypertarget{classFIRFilter_a0a616fd678a499167f252253b2300c76}{}\label{classFIRFilter_a0a616fd678a499167f252253b2300c76}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{CartesianControl_8h}{Cartesian\+Control.\+h}\item 
+\hyperlink{firFilter_8cpp}{fir\+Filter.\+cpp}\end{DoxyCompactItemize}

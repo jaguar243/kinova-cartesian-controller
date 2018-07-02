@@ -1,0 +1,61 @@
+\hypertarget{expt__HoloLensCartesianTeleop_8cpp}{}\section{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp File Reference}
+\label{expt__HoloLensCartesianTeleop_8cpp}\index{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}}
+{\ttfamily \#include \char`\"{}stdafx.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Cartesian\+Control.\+h\char`\"{}}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$queue$>$}\\*
+{\ttfamily \#include $<$future$>$}\\*
+Include dependency graph for expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{da/d5b/expt__HoloLensCartesianTeleop_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{expt__HoloLensCartesianTeleop_8cpp_a5762b99b606a8008d4244c4d484e1f1c}{T\+R\+A\+IN}~true
+\item 
+\#define \hyperlink{expt__HoloLensCartesianTeleop_8cpp_a864a52c772f23a04bcef46a40c9efed4}{T\+E\+S\+T\+\_\+1}~false
+\item 
+\#define \hyperlink{expt__HoloLensCartesianTeleop_8cpp_aa97013921b0b86f7b58de46505cd223b}{T\+E\+S\+T\+\_\+2}~false
+\item 
+\#define \hyperlink{expt__HoloLensCartesianTeleop_8cpp_ac86054dc8d23e66c9556657b04e2a5f3}{I\+N\+V\+E\+R\+S\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+L\+ER}~false
+\item 
+\#define \hyperlink{expt__HoloLensCartesianTeleop_8cpp_ace138276390387cfa2180f589e502f82}{L\+O\+A\+D\+\_\+\+U\+H\+X\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE}~false
+\item 
+\#define \hyperlink{expt__HoloLensCartesianTeleop_8cpp_a0d517e64a65ae6a5522a96096b29ee6b}{L\+O\+A\+D\+\_\+\+X\+M\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE}~false
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classNovintFalconHapticsDevice}{Novint\+Falcon\+Haptics\+Device} $\ast$ \hyperlink{expt__HoloLensCartesianTeleop_8cpp_a5af8a150b7e3676a29b7844262dd4d6f}{novint\+Falcon} = new \hyperlink{classNovintFalconHapticsDevice}{Novint\+Falcon\+Haptics\+Device}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\index{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}!I\+N\+V\+E\+R\+S\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+L\+ER@{I\+N\+V\+E\+R\+S\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+L\+ER}}
+\index{I\+N\+V\+E\+R\+S\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+L\+ER@{I\+N\+V\+E\+R\+S\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+L\+ER}!expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}}
+\subsubsection[{\texorpdfstring{I\+N\+V\+E\+R\+S\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+L\+ER}{INVERSE_CONTROLLER}}]{\setlength{\rightskip}{0pt plus 5cm}\#define I\+N\+V\+E\+R\+S\+E\+\_\+\+C\+O\+N\+T\+R\+O\+L\+L\+ER~false}\hypertarget{expt__HoloLensCartesianTeleop_8cpp_ac86054dc8d23e66c9556657b04e2a5f3}{}\label{expt__HoloLensCartesianTeleop_8cpp_ac86054dc8d23e66c9556657b04e2a5f3}
+\index{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}!L\+O\+A\+D\+\_\+\+U\+H\+X\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE@{L\+O\+A\+D\+\_\+\+U\+H\+X\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE}}
+\index{L\+O\+A\+D\+\_\+\+U\+H\+X\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE@{L\+O\+A\+D\+\_\+\+U\+H\+X\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE}!expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}}
+\subsubsection[{\texorpdfstring{L\+O\+A\+D\+\_\+\+U\+H\+X\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE}{LOAD_UHX_FROM_FILE}}]{\setlength{\rightskip}{0pt plus 5cm}\#define L\+O\+A\+D\+\_\+\+U\+H\+X\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE~false}\hypertarget{expt__HoloLensCartesianTeleop_8cpp_ace138276390387cfa2180f589e502f82}{}\label{expt__HoloLensCartesianTeleop_8cpp_ace138276390387cfa2180f589e502f82}
+\index{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}!L\+O\+A\+D\+\_\+\+X\+M\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE@{L\+O\+A\+D\+\_\+\+X\+M\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE}}
+\index{L\+O\+A\+D\+\_\+\+X\+M\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE@{L\+O\+A\+D\+\_\+\+X\+M\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE}!expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}}
+\subsubsection[{\texorpdfstring{L\+O\+A\+D\+\_\+\+X\+M\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE}{LOAD_XM_FROM_FILE}}]{\setlength{\rightskip}{0pt plus 5cm}\#define L\+O\+A\+D\+\_\+\+X\+M\+\_\+\+F\+R\+O\+M\+\_\+\+F\+I\+LE~false}\hypertarget{expt__HoloLensCartesianTeleop_8cpp_a0d517e64a65ae6a5522a96096b29ee6b}{}\label{expt__HoloLensCartesianTeleop_8cpp_a0d517e64a65ae6a5522a96096b29ee6b}
+\index{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}!T\+E\+S\+T\+\_\+1@{T\+E\+S\+T\+\_\+1}}
+\index{T\+E\+S\+T\+\_\+1@{T\+E\+S\+T\+\_\+1}!expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}}
+\subsubsection[{\texorpdfstring{T\+E\+S\+T\+\_\+1}{TEST_1}}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\+E\+S\+T\+\_\+1~false}\hypertarget{expt__HoloLensCartesianTeleop_8cpp_a864a52c772f23a04bcef46a40c9efed4}{}\label{expt__HoloLensCartesianTeleop_8cpp_a864a52c772f23a04bcef46a40c9efed4}
+\index{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}!T\+E\+S\+T\+\_\+2@{T\+E\+S\+T\+\_\+2}}
+\index{T\+E\+S\+T\+\_\+2@{T\+E\+S\+T\+\_\+2}!expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}}
+\subsubsection[{\texorpdfstring{T\+E\+S\+T\+\_\+2}{TEST_2}}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\+E\+S\+T\+\_\+2~false}\hypertarget{expt__HoloLensCartesianTeleop_8cpp_aa97013921b0b86f7b58de46505cd223b}{}\label{expt__HoloLensCartesianTeleop_8cpp_aa97013921b0b86f7b58de46505cd223b}
+\index{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}!T\+R\+A\+IN@{T\+R\+A\+IN}}
+\index{T\+R\+A\+IN@{T\+R\+A\+IN}!expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}}
+\subsubsection[{\texorpdfstring{T\+R\+A\+IN}{TRAIN}}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\+R\+A\+IN~true}\hypertarget{expt__HoloLensCartesianTeleop_8cpp_a5762b99b606a8008d4244c4d484e1f1c}{}\label{expt__HoloLensCartesianTeleop_8cpp_a5762b99b606a8008d4244c4d484e1f1c}
+
+
+\subsection{Variable Documentation}
+\index{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}!novint\+Falcon@{novint\+Falcon}}
+\index{novint\+Falcon@{novint\+Falcon}!expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp@{expt\+\_\+\+Holo\+Lens\+Cartesian\+Teleop.\+cpp}}
+\subsubsection[{\texorpdfstring{novint\+Falcon}{novintFalcon}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Novint\+Falcon\+Haptics\+Device}$\ast$ novint\+Falcon = new {\bf Novint\+Falcon\+Haptics\+Device}}\hypertarget{expt__HoloLensCartesianTeleop_8cpp_a5af8a150b7e3676a29b7844262dd4d6f}{}\label{expt__HoloLensCartesianTeleop_8cpp_a5af8a150b7e3676a29b7844262dd4d6f}

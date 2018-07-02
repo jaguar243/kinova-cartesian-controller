@@ -1,0 +1,176 @@
+\hypertarget{classCSocketInConnection}{}\section{C\+Socket\+In\+Connection Class Reference}
+\label{classCSocketInConnection}\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+
+
+{\ttfamily \#include $<$socket\+In\+Connection.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCSocketInConnection_aa1fedace468aaaacc9ed53364fe54dd7}{C\+Socket\+In\+Connection} (int the\+Connection\+Port, unsigned short max\+Packet\+Size=250, char header\+I\+D1=59, char header\+I\+D2=57)
+\item 
+virtual \hyperlink{classCSocketInConnection_a649b4a046dd268a3d0eeddf9b7513032}{$\sim$\+C\+Socket\+In\+Connection} ()
+\item 
+bool \hyperlink{classCSocketInConnection_a3573b19ec54411ee9a275ffeb9712cb4}{connect\+To\+Client} ()
+\item 
+char $\ast$ \hyperlink{classCSocketInConnection_a35d54308230b9cea6f8af95a98441a72}{receive\+Data} (int \&data\+Size)
+\item 
+bool \hyperlink{classCSocketInConnection_a725ab613c935ef474c9c0ede64533770}{reply\+To\+Received\+Data} (char $\ast$data, int data\+Size)
+\item 
+std\+::string \hyperlink{classCSocketInConnection_a2d41173714abbf83ffef5663062b453a}{get\+Connected\+Machine\+IP} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classCSocketInConnection_a5e8b5ab5a00b3975327d17120c8ddd47}{\+\_\+send\+Simple\+Packet} (char $\ast$packet, int packet\+Length, unsigned short packets\+Left)
+\item 
+int \hyperlink{classCSocketInConnection_a7f8d909d68c1ecebed43ecdf252a0a97}{\+\_\+receive\+Simple\+Packet} (std\+::vector$<$ char $>$ \&packet)
+\item 
+unsigned int \hyperlink{classCSocketInConnection_aa2f27fe4555b6e37decf4cedb9ee22f1}{\+\_\+get\+Time\+In\+Ms} ()
+\item 
+unsigned int \hyperlink{classCSocketInConnection_a39b91ba3a715175ba1ad65f441da0564}{\+\_\+get\+Time\+Diff\+In\+Ms} (unsigned int last\+Time)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+S\+O\+C\+K\+ET \hyperlink{classCSocketInConnection_aee8c491e5d179aa20921f38cef08ac0d}{\+\_\+socket\+Server}
+\item 
+S\+O\+C\+K\+ET \hyperlink{classCSocketInConnection_a56e7bb3cec18ed99eba6edbe8f80141b}{\+\_\+socket\+Client}
+\item 
+struct sockaddr\+\_\+in \hyperlink{classCSocketInConnection_a7fbfa7dd8415d8cd50ddc3062bc2c1c8}{\+\_\+socket\+Local}
+\item 
+fd\+\_\+set \hyperlink{classCSocketInConnection_a0d6c6fbb3215d3ba3332fca268802d44}{\+\_\+socket\+The\+Set}
+\item 
+int \hyperlink{classCSocketInConnection_a4a51213ec51b9d4e51c7006828f988fb}{\+\_\+socket\+Connection\+Port}
+\item 
+bool \hyperlink{classCSocketInConnection_a01ce97069b2749c8921bc2f043086de1}{\+\_\+socket\+Connect\+Was\+Ok}
+\item 
+std\+::string \hyperlink{classCSocketInConnection_a038af4cdb71b67aa89d459783c03da45}{\+\_\+socket\+Connected\+Machine\+IP}
+\item 
+char \hyperlink{classCSocketInConnection_a29aaed85ddeae77c458e55a525913f92}{\+\_\+header\+Byte1}
+\item 
+char \hyperlink{classCSocketInConnection_aba9547facc04cc1229bcf4180665a245}{\+\_\+header\+Byte2}
+\item 
+unsigned short \hyperlink{classCSocketInConnection_a7b957c558cb8fe7bbc0d38e7eb935fdd}{\+\_\+max\+Packet\+Size}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{C\+Socket\+In\+Connection(int the\+Connection\+Port, unsigned short max\+Packet\+Size=250, char header\+I\+D1=59, char header\+I\+D2=57)}{CSocketInConnection(int theConnectionPort, unsigned short maxPacketSize=250, char headerID1=59, char headerID2=57)}}]{\setlength{\rightskip}{0pt plus 5cm}C\+Socket\+In\+Connection\+::\+C\+Socket\+In\+Connection (
+\begin{DoxyParamCaption}
+\item[{int}]{the\+Connection\+Port, }
+\item[{unsigned short}]{max\+Packet\+Size = {\ttfamily 250}, }
+\item[{char}]{header\+I\+D1 = {\ttfamily 59}, }
+\item[{char}]{header\+I\+D2 = {\ttfamily 57}}
+\end{DoxyParamCaption}
+)}\hypertarget{classCSocketInConnection_aa1fedace468aaaacc9ed53364fe54dd7}{}\label{classCSocketInConnection_aa1fedace468aaaacc9ed53364fe54dd7}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!````~C\+Socket\+In\+Connection@{$\sim$\+C\+Socket\+In\+Connection}}
+\index{````~C\+Socket\+In\+Connection@{$\sim$\+C\+Socket\+In\+Connection}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{$\sim$\+C\+Socket\+In\+Connection()}{~CSocketInConnection()}}]{\setlength{\rightskip}{0pt plus 5cm}C\+Socket\+In\+Connection\+::$\sim$\+C\+Socket\+In\+Connection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{classCSocketInConnection_a649b4a046dd268a3d0eeddf9b7513032}{}\label{classCSocketInConnection_a649b4a046dd268a3d0eeddf9b7513032}
+
+
+\subsection{Member Function Documentation}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+get\+Time\+Diff\+In\+Ms@{\+\_\+get\+Time\+Diff\+In\+Ms}}
+\index{\+\_\+get\+Time\+Diff\+In\+Ms@{\+\_\+get\+Time\+Diff\+In\+Ms}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+get\+Time\+Diff\+In\+Ms(unsigned int last\+Time)}{_getTimeDiffInMs(unsigned int lastTime)}}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int C\+Socket\+In\+Connection\+::\+\_\+get\+Time\+Diff\+In\+Ms (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{last\+Time}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_a39b91ba3a715175ba1ad65f441da0564}{}\label{classCSocketInConnection_a39b91ba3a715175ba1ad65f441da0564}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+get\+Time\+In\+Ms@{\+\_\+get\+Time\+In\+Ms}}
+\index{\+\_\+get\+Time\+In\+Ms@{\+\_\+get\+Time\+In\+Ms}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+get\+Time\+In\+Ms()}{_getTimeInMs()}}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int C\+Socket\+In\+Connection\+::\+\_\+get\+Time\+In\+Ms (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_aa2f27fe4555b6e37decf4cedb9ee22f1}{}\label{classCSocketInConnection_aa2f27fe4555b6e37decf4cedb9ee22f1}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+receive\+Simple\+Packet@{\+\_\+receive\+Simple\+Packet}}
+\index{\+\_\+receive\+Simple\+Packet@{\+\_\+receive\+Simple\+Packet}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+receive\+Simple\+Packet(std\+::vector$<$ char $>$ \&packet)}{_receiveSimplePacket(std::vector< char > &packet)}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Socket\+In\+Connection\+::\+\_\+receive\+Simple\+Packet (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ char $>$ \&}]{packet}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_a7f8d909d68c1ecebed43ecdf252a0a97}{}\label{classCSocketInConnection_a7f8d909d68c1ecebed43ecdf252a0a97}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+send\+Simple\+Packet@{\+\_\+send\+Simple\+Packet}}
+\index{\+\_\+send\+Simple\+Packet@{\+\_\+send\+Simple\+Packet}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+send\+Simple\+Packet(char $\ast$packet, int packet\+Length, unsigned short packets\+Left)}{_sendSimplePacket(char *packet, int packetLength, unsigned short packetsLeft)}}]{\setlength{\rightskip}{0pt plus 5cm}bool C\+Socket\+In\+Connection\+::\+\_\+send\+Simple\+Packet (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{packet, }
+\item[{int}]{packet\+Length, }
+\item[{unsigned short}]{packets\+Left}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_a5e8b5ab5a00b3975327d17120c8ddd47}{}\label{classCSocketInConnection_a5e8b5ab5a00b3975327d17120c8ddd47}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!connect\+To\+Client@{connect\+To\+Client}}
+\index{connect\+To\+Client@{connect\+To\+Client}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{connect\+To\+Client()}{connectToClient()}}]{\setlength{\rightskip}{0pt plus 5cm}bool C\+Socket\+In\+Connection\+::connect\+To\+Client (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classCSocketInConnection_a3573b19ec54411ee9a275ffeb9712cb4}{}\label{classCSocketInConnection_a3573b19ec54411ee9a275ffeb9712cb4}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!get\+Connected\+Machine\+IP@{get\+Connected\+Machine\+IP}}
+\index{get\+Connected\+Machine\+IP@{get\+Connected\+Machine\+IP}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{get\+Connected\+Machine\+I\+P()}{getConnectedMachineIP()}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string C\+Socket\+In\+Connection\+::get\+Connected\+Machine\+IP (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{classCSocketInConnection_a2d41173714abbf83ffef5663062b453a}{}\label{classCSocketInConnection_a2d41173714abbf83ffef5663062b453a}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!receive\+Data@{receive\+Data}}
+\index{receive\+Data@{receive\+Data}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{receive\+Data(int \&data\+Size)}{receiveData(int &dataSize)}}]{\setlength{\rightskip}{0pt plus 5cm}char $\ast$ C\+Socket\+In\+Connection\+::receive\+Data (
+\begin{DoxyParamCaption}
+\item[{int \&}]{data\+Size}
+\end{DoxyParamCaption}
+)}\hypertarget{classCSocketInConnection_a35d54308230b9cea6f8af95a98441a72}{}\label{classCSocketInConnection_a35d54308230b9cea6f8af95a98441a72}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!reply\+To\+Received\+Data@{reply\+To\+Received\+Data}}
+\index{reply\+To\+Received\+Data@{reply\+To\+Received\+Data}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{reply\+To\+Received\+Data(char $\ast$data, int data\+Size)}{replyToReceivedData(char *data, int dataSize)}}]{\setlength{\rightskip}{0pt plus 5cm}bool C\+Socket\+In\+Connection\+::reply\+To\+Received\+Data (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{data, }
+\item[{int}]{data\+Size}
+\end{DoxyParamCaption}
+)}\hypertarget{classCSocketInConnection_a725ab613c935ef474c9c0ede64533770}{}\label{classCSocketInConnection_a725ab613c935ef474c9c0ede64533770}
+
+
+\subsection{Member Data Documentation}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+header\+Byte1@{\+\_\+header\+Byte1}}
+\index{\+\_\+header\+Byte1@{\+\_\+header\+Byte1}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+header\+Byte1}{_headerByte1}}]{\setlength{\rightskip}{0pt plus 5cm}char C\+Socket\+In\+Connection\+::\+\_\+header\+Byte1\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_a29aaed85ddeae77c458e55a525913f92}{}\label{classCSocketInConnection_a29aaed85ddeae77c458e55a525913f92}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+header\+Byte2@{\+\_\+header\+Byte2}}
+\index{\+\_\+header\+Byte2@{\+\_\+header\+Byte2}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+header\+Byte2}{_headerByte2}}]{\setlength{\rightskip}{0pt plus 5cm}char C\+Socket\+In\+Connection\+::\+\_\+header\+Byte2\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_aba9547facc04cc1229bcf4180665a245}{}\label{classCSocketInConnection_aba9547facc04cc1229bcf4180665a245}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+max\+Packet\+Size@{\+\_\+max\+Packet\+Size}}
+\index{\+\_\+max\+Packet\+Size@{\+\_\+max\+Packet\+Size}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+max\+Packet\+Size}{_maxPacketSize}}]{\setlength{\rightskip}{0pt plus 5cm}unsigned short C\+Socket\+In\+Connection\+::\+\_\+max\+Packet\+Size\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_a7b957c558cb8fe7bbc0d38e7eb935fdd}{}\label{classCSocketInConnection_a7b957c558cb8fe7bbc0d38e7eb935fdd}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+socket\+Client@{\+\_\+socket\+Client}}
+\index{\+\_\+socket\+Client@{\+\_\+socket\+Client}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+socket\+Client}{_socketClient}}]{\setlength{\rightskip}{0pt plus 5cm}S\+O\+C\+K\+ET C\+Socket\+In\+Connection\+::\+\_\+socket\+Client\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_a56e7bb3cec18ed99eba6edbe8f80141b}{}\label{classCSocketInConnection_a56e7bb3cec18ed99eba6edbe8f80141b}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+socket\+Connected\+Machine\+IP@{\+\_\+socket\+Connected\+Machine\+IP}}
+\index{\+\_\+socket\+Connected\+Machine\+IP@{\+\_\+socket\+Connected\+Machine\+IP}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+socket\+Connected\+Machine\+IP}{_socketConnectedMachineIP}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string C\+Socket\+In\+Connection\+::\+\_\+socket\+Connected\+Machine\+IP\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_a038af4cdb71b67aa89d459783c03da45}{}\label{classCSocketInConnection_a038af4cdb71b67aa89d459783c03da45}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+socket\+Connection\+Port@{\+\_\+socket\+Connection\+Port}}
+\index{\+\_\+socket\+Connection\+Port@{\+\_\+socket\+Connection\+Port}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+socket\+Connection\+Port}{_socketConnectionPort}}]{\setlength{\rightskip}{0pt plus 5cm}int C\+Socket\+In\+Connection\+::\+\_\+socket\+Connection\+Port\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_a4a51213ec51b9d4e51c7006828f988fb}{}\label{classCSocketInConnection_a4a51213ec51b9d4e51c7006828f988fb}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+socket\+Connect\+Was\+Ok@{\+\_\+socket\+Connect\+Was\+Ok}}
+\index{\+\_\+socket\+Connect\+Was\+Ok@{\+\_\+socket\+Connect\+Was\+Ok}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+socket\+Connect\+Was\+Ok}{_socketConnectWasOk}}]{\setlength{\rightskip}{0pt plus 5cm}bool C\+Socket\+In\+Connection\+::\+\_\+socket\+Connect\+Was\+Ok\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_a01ce97069b2749c8921bc2f043086de1}{}\label{classCSocketInConnection_a01ce97069b2749c8921bc2f043086de1}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+socket\+Local@{\+\_\+socket\+Local}}
+\index{\+\_\+socket\+Local@{\+\_\+socket\+Local}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+socket\+Local}{_socketLocal}}]{\setlength{\rightskip}{0pt plus 5cm}struct sockaddr\+\_\+in C\+Socket\+In\+Connection\+::\+\_\+socket\+Local\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_a7fbfa7dd8415d8cd50ddc3062bc2c1c8}{}\label{classCSocketInConnection_a7fbfa7dd8415d8cd50ddc3062bc2c1c8}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+socket\+Server@{\+\_\+socket\+Server}}
+\index{\+\_\+socket\+Server@{\+\_\+socket\+Server}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+socket\+Server}{_socketServer}}]{\setlength{\rightskip}{0pt plus 5cm}S\+O\+C\+K\+ET C\+Socket\+In\+Connection\+::\+\_\+socket\+Server\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_aee8c491e5d179aa20921f38cef08ac0d}{}\label{classCSocketInConnection_aee8c491e5d179aa20921f38cef08ac0d}
+\index{C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}!\+\_\+socket\+The\+Set@{\+\_\+socket\+The\+Set}}
+\index{\+\_\+socket\+The\+Set@{\+\_\+socket\+The\+Set}!C\+Socket\+In\+Connection@{C\+Socket\+In\+Connection}}
+\subsubsection[{\texorpdfstring{\+\_\+socket\+The\+Set}{_socketTheSet}}]{\setlength{\rightskip}{0pt plus 5cm}fd\+\_\+set C\+Socket\+In\+Connection\+::\+\_\+socket\+The\+Set\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{classCSocketInConnection_a0d6c6fbb3215d3ba3332fca268802d44}{}\label{classCSocketInConnection_a0d6c6fbb3215d3ba3332fca268802d44}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{socketInConnection_8h}{socket\+In\+Connection.\+h}\item 
+\hyperlink{socketInConnection_8cpp}{socket\+In\+Connection.\+cpp}\end{DoxyCompactItemize}
